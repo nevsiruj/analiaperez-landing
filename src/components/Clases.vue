@@ -32,6 +32,19 @@
           </div>
         </div>
         <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-lg font-bold mb-2">Título del video</h3>
+            <p class="text-gray-700">Descripción del video</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
