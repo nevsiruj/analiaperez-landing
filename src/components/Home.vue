@@ -14,9 +14,9 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 px-4 mb-8">
-          <h2 class="text-2xl font-bold text-gray-800">
-            Aprende a bailar conmigo
-          </h2>
+          <h2 class="text-2xl font-bold text-gray-800 animate-pulse">
+  Aprende a bailar conmigo
+</h2>
 
           <h3 class="text-1xl font-bold text-gray-800">
           Las mejores coreograficas paso a paso.
@@ -92,46 +92,24 @@
   </div>
 </section>
 
-
-        <div class="card m-3">
+        <!-- <div class="card m-3">
 
           <img
             src="https://files.fm/thumb_show.php?i=4hcan2s3p"
             alt="Dance Mix"
             class="rounded-lg mb-4"
           />
-        </div>
-        </div>
-
-
-        <div class="w-full md:w-1/2 px-4 mb-8">
-          <h2 class="text-2xl font-bold mb-4 text-gray-800">Sobre el baile</h2>
-          <p class="text-lg mb-4">
-            El baile es una forma de expresión artística y cultural que ha
-            existido desde tiempos prehistóricos. En todas las culturas del
-            mundo, el baile se ha utilizado para celebrar, comunicar y expresar
-            emociones y sentimientos.
-          </p>
-          <p class="text-lg mb-4">
-            Además de ser una forma de arte, el baile también tiene muchos
-            beneficios para la salud, como mejorar la coordinación, la
-            flexibilidad y la resistencia física. También puede ser una forma
-            divertida de socializar y conocer gente nueva.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+        </div> -->
 
   <section class="bg-gray-100 py-8">
   <div class="container mx-auto px-4">
     <div class="card rounded-lg overflow-hidden shadow-lg bg-white">
       <div class="p-4">
         <h2 class="text-3xl font-bold text-gray-800 mb-4">
-          ¡Bailar es terapéutico!
+          ¡Dance!
         </h2>
         <p class="text-lg text-gray-800 mb-4">
-          ✴️Bailar es más que simplemente mover el cuerpo al ritmo de la música. 
+          ✴️Bailar es más que simplemente mover el cuerpo al ritmo de la música. <br>
           ✴️También es una forma de expresar sentimientos y emociones. Además, 
           sabías que bailar es una de las mejores terapias para sentirnos bien? El cambio se produce a través del movimiento, y el movimiento cura.
         </p>
@@ -139,8 +117,6 @@
     </div>
   </div>
 </section>
-
-
 
 
 
@@ -298,5 +274,7 @@ a {
   height: auto;
   object-fit: cover; /* para ajustar la imagen al tamaño del círculo */
 }
+
+
 
 </style>
