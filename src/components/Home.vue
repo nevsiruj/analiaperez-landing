@@ -53,14 +53,20 @@
       Disfruta de nuestro curso en la modalidad grabado, que consta de 13 videos coreográficos explicados paso a paso. Podrás hacerlo en tus tiempos y horarios, sin preocuparte por perderte ninguna clase. Además, te daremos diferentes ideas de vestuarios para cada ritmo, para que puedas lucirte mientras bailas 👌.
     </p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/N4NzXAMflpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-card">
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/N4NzXAMflpw" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/N4NzXAMflpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
     <!-- <div class="flex justify-center items-center">
       <i class="far fa-play-circle fa-3x text-red-500 mr-2"></i>
       <a href="#" class="text-red-500 font-bold hover:underline">¡Mira un adelanto de las coreografías aquí!</a>
     </div> -->
 
-    
+
   </div>
 </div>
 </section>
@@ -258,6 +264,32 @@ a {
   width: 100%;
   height: auto;
   object-fit: cover; /* para ajustar la imagen al tamaño del círculo */
+}
+
+.video-card {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* Proporción 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
