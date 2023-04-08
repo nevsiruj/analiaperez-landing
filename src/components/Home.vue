@@ -195,7 +195,7 @@ No esperes más para formarte y capacitarte con nosotros estudios mick Dance A.P
 
   <section class="bg-cool-gray-100 py-16">
     <div class="container mx-auto">
-      <h2 class="text-2xl font-bold mb-">Sobre Analia Perez</h2>
+      <h2 class="text-2xl font-bold mb-4">Sobre Analia Perez</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="rounded-circle">
   <img src="https://files.fm/thumb_show.php?i=3rrpwftsx" alt="Foto de Analia Perez" />
