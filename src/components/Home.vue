@@ -126,27 +126,27 @@
       </h2>
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/3 px-4 mb-8">
-          <div class="bg-blue-500 text-white py-6 px-4 rounded-lg">
+          <div class="bg-purple-500 text-white py-6 px-4 rounded-lg">
             <h3 class="font-bold text-lg mb-2">Mejora la salud</h3>
-            <p class="text-sm">
+           <p class="text-lg font-bold text-black">
               Bailar es una excelente forma de hacer ejercicio y mejorar la
               salud cardiovascular, la resistencia y la fuerza muscular.
             </p>
           </div>
         </div>
         <div class="w-full md:w-1/3 px-4 mb-8">
-          <div class="bg-green-500 text-white py-6 px-4 rounded-lg">
+          <div class="bg-sky-400 text-white py-6 px-4 rounded-lg">
             <h3 class="font-bold text-lg mb-2">Reduce el estrés</h3>
-            <p class="text-sm">
+            <p class="text-lg font-bold text-black">
               Bailar puede ayudar a reducir el estrés y la ansiedad, ya que
               libera endorfinas y promueve la relajación.
             </p>
           </div>
         </div>
         <div class="w-full md:w-1/3 px-4 mb-8">
-          <div class="bg-yellow-500 text-white py-6 px-4 rounded-lg">
+          <div class="bg-pink-500 text-white py-6 px-4 rounded-lg">
             <h3 class="font-bold text-lg mb-2">Bailar mejora la autoestima</h3>
-            <p class="text-sm">
+            <p class="text-lg font-bold text-black">
               Bailar puede ayudar a mejorar la autoestima y la confianza, ya que
               permite expresarse y ser creativo.
             </p>
@@ -161,8 +161,8 @@
     <div class="container mx-auto px-4">
       <h2 class="text-2xl font-bold mb-4 text-purple-500">¡Comienza a bailar y certificate hoy mismo!</h2>
       <p class="text-lg text-white mb-8">Este es tu momento.
-No esperes más para formarte y capacitarte con nosotros estudios mick Dance A.P</p>
-      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">¡Inscríbete ahora!</a>
+No esperes más para formarte y capacitarte con nosotros <strong class="text-purple-500">Studio Mix Dance A.P</strong></p>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">¡Adquiri mi curso ahora!</a>
     </div>
   </section>
 
