@@ -4,7 +4,7 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 px-4 mb-8">
-          <h2 class="text-3xl font-bold text-purple-500 animate-pulse">
+          <h2 class="text-3xl font-bold text-sky-500">
   Aprende a bailar conmigo
 </h2>
 
