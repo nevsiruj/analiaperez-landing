@@ -37,9 +37,9 @@
  <div class="card rounded-lg overflow-hidden shadow-lg mb-8">
   <div class="p-4">
       <h2 class="text-3xl font-bold text-purple-500 mb-4">¡Aprende a bailar desde casa!</h2>
-      <p class="text-xl text-gray-600 mb-4">Este curso es totalmente online, lo que significa que puedes hacerlo en tus tiempos y horarios disponibles.  🕐
+      <p class="text-xl font-bold text-black-600 mb-4">Este curso es totalmente online, lo que significa que puedes hacerlo en tus tiempos y horarios disponibles.  🕐
 </p>
-      <p class="text-xl text-gray-600 mb-8">Una vez que abones, recibirás un usuario y contraseña o un link para acceder al curso de inmediato y empezar a bailar. 🕺💃</p>
+      <p class="text-xl font-bold text-black-600 mb-8">Una vez que abones, recibirás un usuario y contraseña o un link para acceder al curso de inmediato y empezar a bailar. 🕺💃</p>
   </div>
 </section>
 
@@ -49,7 +49,7 @@
     <h2 class="text-3xl font-bold text-purple-500 mb-4">
       Modalidad Grabado
     </h2>
-    <p class="text-lg text-gray-800 mb-4">
+    <p class="text-lg font-bold text-black-600 mb-4">
       Disfruta de nuestro curso en la modalidad grabado, que consta de 13 videos coreográficos explicados paso a paso. Podrás hacerlo en tus tiempos y horarios, sin preocuparte por perderte ninguna clase. Además, te daremos diferentes ideas de vestuarios para cada ritmo, para que puedas lucirte mientras bailas 👌.
     </p>
     <div class="flex justify-center items-center">
