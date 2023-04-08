@@ -1,45 +1,42 @@
 <template>
 
-  <section class="bg-gray-100 py-12">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full md:w-1/2 px-4 mb-8">
-          <h2 class="text-3xl font-bold text-sky-500">
-  Aprende a bailar conmigo
-</h2>
+<section class="bg-gray-100 py-12">
+  <div class="container mx-auto px-4">
+    <div class="card flex flex-wrap -mx-4 items-center justify-center">
+      <div class="w-full md:w-1/2 px-4 mb-8 text-center">
+        <h2 class="text-3xl font-bold text-sky-500">
+          Aprende a bailar conmigo
+        </h2>
 
-          <h3 class="text-2xl font-bold text-purple-500">
+        <h3 class="text-2xl font-bold text-purple-500">
           Las mejores coreograficas paso a paso.
-          </h3>
+        </h3>
 
-          <p class="text-lg font-bold text-black-600 mb-4">
-            ¿Quieres aprender a bailar de forma divertida y fácil? Soy coreografa y profesora de baile experimentada y estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesion.
-          </p>
-          <p class="text-lg font-bold text-black-600 mb-4">
-            En este curso vas a aprender a bailar paso a paso cada estilo coreografico para todas las formaciones y niveles, canons grupales e individuales, vas a aprender salsa, bachata , reggaeton, latino, reggae, pop latino y mucho, mucho más.
-            Mis clases son entendibles, me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo.
-          </p>
-          <a
-            href="#"
-            class="
-              bg-blue-500
-              hover:bg-blue-600
-              text-white
-              py-2
-              px-4
-              rounded
-            "
-            >¡Adquiri mi curso ahora!</a
-          >
-          </section>
+        <p class="text-lg font-bold text-black-600 my-4">
+          ¿Quieres aprender a bailar de forma divertida y fácil? Soy coreografa y profesora de baile experimentada y estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesion.
+        </p>
+        <p class="text-lg font-bold text-black-600 my-4">
+          En este curso vas a aprender a bailar paso a paso cada estilo coreografico para todas las formaciones y niveles, canons grupales e individuales, vas a aprender salsa, bachata , reggaeton, latino, reggae, pop latino y mucho, mucho más.
+          Mis clases son entendibles, me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo.
+        </p>
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
+          <i class="fas fa-shopping-cart mr-2"></i>¡Adquiri mi curso ahora!
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
-          <section class="bg-gray-100 py-8">
- <div class="card rounded-lg overflow-hidden shadow-lg mb-8">
-  <div class="p-4">
+
+
+
+<section class="bg-gray-100 py-8">
+  <div class="card rounded-lg overflow-hidden shadow-lg mb-8">
+    <div class="p-4">
       <h2 class="text-3xl font-bold text-purple-500 mb-4">¡Aprende a bailar desde casa!</h2>
-      <p class="text-xl font-bold text-black-600 mb-4">Este curso es totalmente online, lo que significa que puedes hacerlo en tus tiempos y horarios disponibles.  🕐
-</p>
+      <p class="text-xl font-bold text-black-600 mb-4">Este curso es totalmente online, lo que significa que puedes hacerlo en tus tiempos y horarios disponibles. 🕐</p>
       <p class="text-xl font-bold text-black-600 mb-8">Una vez que abones, recibirás un usuario y contraseña o un link para acceder al curso de inmediato y empezar a bailar. 🕺💃</p>
+    </div>
   </div>
 </section>
 
@@ -73,7 +70,7 @@
 
           
 
-          <section class="bg-purple-200 py-12 mt-4">
+<section class="bg-purple-200 py-12 mt-4">
   <div class="container mx-auto px-4">
     <div class="card bg-white rounded-lg p-8">
       <h2 class="text-3xl font-bold mb-4 text-purple-500">¿A quién va dirigido?</h2>
@@ -98,23 +95,22 @@
           />
         </div> -->
 
-  <section class="bg-gray-100 py-8">
+<section class="bg-gray-100 py-8">
   <div class="container mx-auto px-4">
     <div class="card rounded-lg overflow-hidden shadow-lg bg-white">
       <div class="p-4">
-    <h2 class="text-3xl font-bold text-purple-500 mb-4">
-  ¡Dance!
-</h2>
-
+        <h2 class="text-3xl font-bold text-purple-500 mb-4">
+          ¡Dance!
+        </h2>
         <p class="text-lg text-gray-800 mb-4">
           ✴️Bailar es más que simplemente mover el cuerpo al ritmo de la música. <br>
-          ✴️También es una forma de expresar sentimientos y emociones. Además, 
-          sabías que bailar es una de las mejores terapias para sentirnos bien? El cambio se produce a través del movimiento, y el movimiento cura.
+          ✴️También es una forma de expresar sentimientos y emociones. Además, sabías que bailar es una de las mejores terapias para sentirnos bien? El cambio se produce a través del movimiento, y el movimiento cura.
         </p>
       </div>
     </div>
   </div>
 </section>
+
 
 
 
