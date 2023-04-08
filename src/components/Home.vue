@@ -52,10 +52,15 @@
     <p class="text-lg font-bold text-black-600 mb-4">
       Disfruta de nuestro curso en la modalidad grabado, que consta de 13 videos coreográficos explicados paso a paso. Podrás hacerlo en tus tiempos y horarios, sin preocuparte por perderte ninguna clase. Además, te daremos diferentes ideas de vestuarios para cada ritmo, para que puedas lucirte mientras bailas 👌.
     </p>
-    <div class="flex justify-center items-center">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/N4NzXAMflpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!-- <div class="flex justify-center items-center">
       <i class="far fa-play-circle fa-3x text-red-500 mr-2"></i>
       <a href="#" class="text-red-500 font-bold hover:underline">¡Mira un adelanto de las coreografías aquí!</a>
-    </div>
+    </div> -->
+
+    
   </div>
 </div>
 </section>
