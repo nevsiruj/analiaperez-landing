@@ -46,7 +46,7 @@
           <section class="bg-gray-100 py-8">
  <div class="card rounded-lg overflow-hidden shadow-lg mb-8">
   <div class="p-4">
-      <h2 class="text-3xl font-bold text-gray-800 mb-4">¡Aprende a bailar desde casa!</h2>
+      <h2 class="text-3xl font-bold text-purple-500 mb-4">¡Aprende a bailar desde casa!</h2>
       <p class="text-xl text-gray-600 mb-4">Este curso es totalmente online, lo que significa que puedes hacerlo en tus tiempos y horarios disponibles.  🕐
 </p>
       <p class="text-xl text-gray-600 mb-8">Una vez que abones, recibirás un usuario y contraseña o un link para acceder al curso de inmediato y empezar a bailar. 🕺💃</p>
@@ -56,7 +56,7 @@
 <section class="bg-gray-100 py-8">
  <div class="card rounded-lg overflow-hidden shadow-lg mb-8">
   <div class="p-4">
-    <h2 class="text-3xl font-bold text-gray-800 mb-4">
+    <h2 class="text-3xl font-bold text-purple-500 mb-4">
       Modalidad Grabado
     </h2>
     <p class="text-lg text-gray-800 mb-4">
@@ -70,16 +70,12 @@
 </div>
 </section>
 
-
-
-
-
           
 
           <section class="bg-purple-200 py-12 mt-4">
   <div class="container mx-auto px-4">
     <div class="card bg-white rounded-lg p-8">
-      <h2 class="text-3xl font-bold mb-4 text-gray-800">¿A quién va dirigido?</h2>
+      <h2 class="text-3xl font-bold mb-4 text-purple-500">¿A quién va dirigido?</h2>
       <ul class="text-lg mb-8">
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>A todos los que quieran aprender a bailar o enseñar a bailar en el ámbito privado, ya sea en gimnasios, estudios, clases particulares, etcétera.</li>
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>No necesitas conocimiento previo. Nuestras clases están diseñadas para todos los niveles.</li>
@@ -105,9 +101,10 @@
   <div class="container mx-auto px-4">
     <div class="card rounded-lg overflow-hidden shadow-lg bg-white">
       <div class="p-4">
-        <h2 class="text-3xl font-bold text-gray-800 mb-4">
-          ¡Dance!
-        </h2>
+    <h2 class="text-3xl font-bold text-purple-500 mb-4">
+  ¡Dance!
+</h2>
+
         <p class="text-lg text-gray-800 mb-4">
           ✴️Bailar es más que simplemente mover el cuerpo al ritmo de la música. <br>
           ✴️También es una forma de expresar sentimientos y emociones. Además, 
