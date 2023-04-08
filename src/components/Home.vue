@@ -1,14 +1,4 @@
 <template>
-  <header class="bg-gradient-to-r from-fuchsia-400 to-cyan-500 py-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <a href="#" class="text-white font-bold text-xl ml-2">Dance MIX</a>
-      <nav>
-        <a href="#" class="text-white hover:underline mx-4">Inicio</a>
-        <a href="#" class="text-white hover:underline mx-4">Beneficios</a>
-        <a href="#" class="text-white hover:underline mx-4">Contacto</a>
-      </nav>
-    </div>
-  </header>
 
   <section class="bg-gray-100 py-12">
     <div class="container mx-auto px-4">
@@ -158,7 +148,7 @@
   <!-- Sección de llamado a la acción -->
   <section class="bg-gray-900 py-12">
     <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold mb-4 text-white">¡Comienza a bailar y certificate hoy mismo!</h2>
+      <h2 class="text-2xl font-bold mb-4 text-purple-500">¡Comienza a bailar y certificate hoy mismo!</h2>
       <p class="text-lg text-white mb-8">Este es tu momento.
 No esperes más para formarte y capacitarte con nosotros estudios mick Dance A.P</p>
       <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">¡Inscríbete ahora!</a>
@@ -168,50 +158,43 @@ No esperes más para formarte y capacitarte con nosotros estudios mick Dance A.P
 
   <section class="bg-cool-gray-100 py-16">
     <div class="container mx-auto">
-      <h2 class="text-2xl font-bold mb-4">Sobre Analia Perez</h2>
+      <h2 class="text-2xl font-bold mb-4 text-purple-500">Sobre Analia Perez</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="rounded-circle">
   <img src="https://files.fm/thumb_show.php?i=3rrpwftsx" alt="Foto de Analia Perez" />
 </div>
 
      <div class="m-2">
-  <div class="card">
+  <div class="bg-white rounded-lg shadow-lg p-4">
     <p class="text-gray-700 text-lg mb-4">
-      Analía Pérez es una reconocida profesora de baile de Villa Gesell,
-      comprometida con la enseñanza y la difusión de la danza en su comunidad.
-      Nació y creció en la ciudad, donde ha desempeñado un papel activo en la
-      escena del baile desde una temprana edad.
+      Analía Pérez es una reconocida profesora de baile de Villa Gesell, comprometida con la enseñanza y la difusión de la danza en su comunidad. Nació y creció en la ciudad, donde ha desempeñado un papel activo en la escena del baile desde una temprana edad.
     </p>
     <p class="text-gray-700 text-lg mb-4">
-    Se recibió en la academia de danzas internacionales de Buenos Aires. También hizo un instructorado profesional en el ceaf de mar del plata y muchas capacitaciones en diferentes escuelas y STUDIOS.
-Da clases desde el 2005 Y actualmente en la casa de la cultura de su ciudad como profesora de baile y en varios estudios de danza.
-Fundó su propio STUDIO DANCE en el año 2021. Desde entonces ha enseñado y capacitado a numerosos bailarines y futuros instructores.
-También empezó con su academia de cursos online en el 2020 a los que se han formado más de 1000 alumnos de al menos 4 países .
+      Se recibió en la academia de danzas internacionales de Buenos Aires. También hizo un instructorado profesional en el ceaf de mar del plata y muchas capacitaciones en diferentes escuelas y estudios. Da clases desde el 2005 y actualmente en la casa de la cultura de su ciudad como profesora de baile y en varios estudios de danza.
+      Fundó su propio estudio Dance en el año 2021. Desde entonces ha enseñado y capacitado a numerosos bailarines y futuros instructores. También comenzó con su academia de cursos online en el 2020, a los que se han formado más de 1000 alumnos de al menos 4 países.
     </p>
     <p class="text-gray-700 text-lg mb-4">
-      En el ámbito del baile, Analía ha sido reconocida por su talento y su
-      dedicación a la enseñanza. Ha participado en numerosos festivales y
-      competencias de danza, y ha ganado varios premios por sus coreografías y
-      su estilo innovador. Ahora, como propietaria y directora de su propia
-      escuela de baile, quiere compartir su pasión y su experiencia con todos
-      aquellos que quieran aprender y disfrutar de la danza.
+      En el ámbito del baile, Analía ha sido reconocida por su talento y su dedicación a la enseñanza. Ha participado en numerosos festivales y competencias de danza, y ha ganado varios premios por sus coreografías y su estilo innovador. Ahora, como propietaria y directora de su propia escuela de baile, quiere compartir su pasión y su experiencia con todos aquellos que quieran aprender y disfrutar de la danza.
     </p>
+    <div class="flex items-center mt-4">
+      <i class="fas fa-graduation-cap fa-lg text-gray-500 mr-2"></i>
+      <span class="text-gray-500">Instructora profesional de danza</span>
+    </div>
+    <div class="flex items-center mt-2">
+      <i class="fas fa-chalkboard-teacher fa-lg text-gray-500 mr-2"></i>
+      <span class="text-gray-500">Más de 15 años de experiencia</span>
+    </div>
+    <div class="flex items-center mt-2">
+      <i class="fas fa-trophy fa-lg text-gray-500 mr-2"></i>
+      <span class="text-gray-500">Ganadora de múltiples premios en festivales y competencias de danza</span>
+    </div>
   </div>
 </div>
 
-          <a
-            href="#"
-            class="
-              bg-blue-500
-              hover:bg-blue-600
-              text-white
-              font-bold
-              py-2
-              px-4
-              rounded
-            "
-            >Contacta con Analia</a
-          >
+
+        <a href="https://wa.me/549XXXXXXXXXX" target="_blank" rel="noopener" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+  <i class="fab fa-whatsapp"></i> Contacta con Analía
+</a>
         </div>
       </div>
     </div>
