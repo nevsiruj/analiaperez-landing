@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <Header />
-    <Home />
+
+    <!-- Aquí va el contenido principal de la página -->
+    <router-view />
+
+    <!-- <Home /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   </div>
 </template>
