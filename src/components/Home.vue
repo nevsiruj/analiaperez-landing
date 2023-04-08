@@ -14,18 +14,20 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 px-4 mb-8">
-          <h2 class="text-2xl font-bold mb-4 text-gray-800">
+          <h2 class="text-2xl font-bold text-gray-800">
             Aprende a bailar conmigo
           </h2>
+
+          <h3 class="text-1xl font-bold text-gray-800">
+          Las mejores coreograficas paso a paso.
+          </h3>
+
           <p class="text-lg mb-4">
-            ¿Quieres aprender a bailar de forma divertida y fácil? Soy un
-            instructor de baile experimentado y estoy aquí para ayudarte.
+            ¿Quieres aprender a bailar de forma divertida y fácil? Soy coreografa y profesora de baile experimentada y estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesion.
           </p>
           <p class="text-lg mb-4">
-            Ofrezco clases de baile para todos los niveles y estilos, desde
-            salsa y bachata hasta tango y hip hop. Mis clases son divertidas y
-            accesibles, y me aseguro de que todos mis estudiantes aprendan a su
-            propio ritmo.
+            En este curso vas a aprender a bailar paso a paso cada estilo coreografico para todas las formaciones y niveles, canons grupales e individuales, vas a aprender salsa, bachata , reggaeton, latino, reggae, pop latino y mucho, mucho más.
+            Mis clases son entendibles, me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo.
           </p>
           <a
             href="#"
