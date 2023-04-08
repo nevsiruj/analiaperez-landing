@@ -14,11 +14,11 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 px-4 mb-8">
-          <h2 class="text-2xl font-bold text-gray-800 animate-pulse">
+          <h2 class="text-3xl font-bold text-purple-500 animate-pulse">
   Aprende a bailar conmigo
 </h2>
 
-          <h3 class="text-1xl font-bold text-gray-800">
+          <h3 class="text-1xl font-bold text-purple-500">
           Las mejores coreograficas paso a paso.
           </h3>
 
