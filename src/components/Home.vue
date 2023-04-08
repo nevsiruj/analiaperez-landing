@@ -8,14 +8,14 @@
   Aprende a bailar conmigo
 </h2>
 
-          <h3 class="text-1xl font-bold text-purple-500">
+          <h3 class="text-2xl font-bold text-purple-500">
           Las mejores coreograficas paso a paso.
           </h3>
 
-          <p class="text-lg mb-4">
+          <p class="text-lg font-bold text-black-600 mb-4">
             ¿Quieres aprender a bailar de forma divertida y fácil? Soy coreografa y profesora de baile experimentada y estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesion.
           </p>
-          <p class="text-lg mb-4">
+          <p class="text-lg font-bold text-black-600 mb-4">
             En este curso vas a aprender a bailar paso a paso cada estilo coreografico para todas las formaciones y niveles, canons grupales e individuales, vas a aprender salsa, bachata , reggaeton, latino, reggae, pop latino y mucho, mucho más.
             Mis clases son entendibles, me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo.
           </p>
