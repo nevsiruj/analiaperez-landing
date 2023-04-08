@@ -120,7 +120,7 @@
   <!-- Sección de beneficios -->
   <section class="bg-white py-12">
     <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold mb-8 text-gray-800">
+      <h2 class="text-3xl font-bold mb-8 text-purple-500">
         Beneficios de bailar
       </h2>
       <div class="flex flex-wrap -mx-4">
