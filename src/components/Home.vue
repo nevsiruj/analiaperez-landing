@@ -16,10 +16,10 @@
           estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesion.
         </p>
         <p class="text-lg font-bold text-black-600 my-4">
-          En este curso vas a aprender a bailar paso a paso cada estilo coreografico para todas las formaciones y
-          niveles, canons grupales e individuales, vas a aprender salsa, bachata , reggaeton, latino, reggae, pop latino
-          y mucho, mucho más.
-          Mis clases son entendibles, me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo.
+        Dale! En este curso aprenderás a bailar cada estilo coreográfico, paso a paso y para todos los niveles, desde principiantes hasta avanzados. Además, te enseñaré coreografías grupales e individuales, formaciones y canones. ¡No te pierdas esta oportunidad de aprender a bailar!
+        </p>
+        <p class="text-lg font-bold text-black-600 my-4">
+          ✴️Aprenderás a bailar salsa, bachata, reggaetón, latino, reggae, pop latino, pop dance, electro pop y muchos más. Mis clases son fáciles de entender y me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo. 👌
         </p>
         <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded" @click="openModal">
           <i class="fas fa-shopping-cart mr-2"></i>¡Adquiri mi curso ahora!
