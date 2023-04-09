@@ -4,21 +4,21 @@
 <div class="container mx-auto px-4">
   <div class="card flex flex-row flex-wrap -mx-4 items-center justify-center">
     <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-      <h2 class="text-3xl font-bold text-sky-500">
+      <h2 class="text-4xl font-bold text-sky-500">
         Aprende a bailar conmigo
       </h2>
-      <h3 class="text-2xl font-bold text-purple-500">
+      <h3 class="text-3xl font-bold text-purple-500">
           Las mejores coreograficas paso a paso.
         </h3>
 
-        <p class="text-lg font-bold text-black-600 my-4">
+        <p class="text-2xl font-bold text-black-600 my-4">
           ¿Quieres aprender a bailar de forma divertida y fácil? Soy coreografa y profesora de baile experimentada y
           estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesion.
         </p>
-        <p class="text-lg font-bold text-black-600 my-4">
+        <p class="text-2xl font-bold text-black-600 my-4">
         Dale! En este curso aprenderás a bailar cada estilo coreográfico, paso a paso y para todos los niveles, desde principiantes hasta avanzados. Además, te enseñaré coreografías grupales e individuales, formaciones y canones. ¡No te pierdas esta oportunidad de aprender a bailar!
         </p>
-        <p class="text-lg font-bold text-black-600 my-4">
+        <p class="text-2xl font-bold text-black-600 my-4">
           ✴️Aprenderás a bailar salsa, bachata, reggaetón, latino, reggae, pop latino, pop dance, electro pop y muchos más. Mis clases son fáciles de entender y me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo. 👌
         </p>
         <!-- <a  class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded" @click="openModal">
@@ -68,8 +68,8 @@
 <section class="bg-gray-100 py-8">
   <div class="card rounded-lg overflow-hidden shadow-lg mb-8">
     <div class="p-4">
-      <h2 class="text-3xl font-bold text-purple-500 mb-4">¡Aprende a bailar desde casa!</h2>
-      <p class="text-xl font-bold text-black-600 mb-4">Este curso es totalmente online, lo que significa que puedes hacerlo en tus tiempos y horarios disponibles. 🕐</p>
+      <h2 class="text-4xl font-bold text-purple-500 mb-4">¡Aprende a bailar desde casa!</h2>
+      <p class="text-2xl font-bold text-black-600 mb-4">Este curso es totalmente online, lo que significa que puedes hacerlo en tus tiempos y horarios disponibles. 🕐</p>
       <p class="text-xl font-bold text-black-600 mb-8">Una vez que abones, recibirás un usuario y contraseña o un link para acceder al curso de inmediato y empezar a bailar. 🕺💃</p>
     </div>
   </div>
@@ -78,10 +78,10 @@
 <section class="bg-gray-100 py-8">
  <div class="card rounded-lg overflow-hidden shadow-lg mb-8">
   <div class="p-4">
-    <h2 class="text-3xl font-bold text-purple-500 mb-4">
+    <h2 class="text-4xl font-bold text-purple-500 mb-4">
       Modalidad Grabado
     </h2>
-    <p class="text-lg font-bold text-black-600 mb-4">
+    <p class="text-2xl font-bold text-black-600 mb-4">
       Disfruta de nuestro curso en la modalidad grabado, que consta de 13 videos coreográficos explicados paso a paso. Podrás hacerlo en tus tiempos y horarios, sin preocuparte por perderte ninguna clase. Además, te daremos diferentes ideas de vestuarios para cada ritmo, para que puedas lucirte mientras bailas 👌.
     </p>
 
@@ -108,8 +108,8 @@
 <section class="bg-purple-200 py-12 mt-4">
   <div class="container mx-auto px-4">
     <div class="card bg-white rounded-lg p-8">
-      <h2 class="text-3xl font-bold mb-4 text-purple-500">¿A quién va dirigido?</h2>
-      <ul class="text-lg mb-8">
+      <h2 class="text-4xl font-bold mb-4 text-purple-500">¿A quién va dirigido?</h2>
+      <ul class="text-2xl mb-8">
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>A todos los que quieran aprender a bailar o enseñar a bailar en el ámbito privado, ya sea en gimnasios, estudios, clases particulares, etcétera.</li>
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>No necesitas conocimiento previo. Nuestras clases están diseñadas para todos los niveles.</li>
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Podrás ver las grabaciones las veces que quieras a tu propio ritmo. No te preocupes si necesitas repasar algún paso o coreografía.</li>
@@ -133,8 +133,12 @@
 <section class="bg-gray-100 py-8">
   <div class="container mx-auto px-4">
     <div class="card rounded-lg overflow-hidden shadow-lg bg-white">
+
       <div class="p-4">
-        <h2 class="text-3xl font-bold text-purple-500 mb-4">
+        <div class="mb-4">
+        <img src="https://files.fm/thumb_show.php?i=2vb59p268" alt="Bailarina bailando" class="w-full h-auto object-cover border border-black border-2">
+        </div>
+        <h2 class="text-4xl font-bold text-purple-500 mb-4">
           ¡Dance!
         </h2>
         <p class="text-lg text-gray-800 mb-4">
@@ -149,17 +153,18 @@
 
 
 
+
   <!-- Sección de beneficios -->
   <section class="bg-white py-12">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-8 text-purple-500">
+      <h2 class="text-4xl font-bold mb-8 text-purple-500">
         Beneficios de bailar
       </h2>
       <div class="flex flex-wrap -mx-4">
 <div class="w-full md:w-1/3 px-4 mb-8 flex flex-col">
   <div class="bg-purple-500 text-white py-6 px-4 rounded-lg flex-grow">
-            <h3 class="font-bold text-lg mb-2">Mejora la salud</h3>
-           <p class="text-lg font-bold text-black">
+            <h3 class="font-bold text-4xl  mb-2">Mejora la salud</h3>
+           <p class="text-2xl font-bold text-black">
               Bailar es una excelente forma de hacer ejercicio y mejorar la
               salud cardiovascular, la resistencia y la fuerza muscular.
             </p>
@@ -167,17 +172,17 @@
         </div>
   <div class="w-full md:w-1/3 px-4 mb-8 flex flex-col">
   <div class="bg-sky-400 text-white py-6 px-4 rounded-lg flex-grow">
-            <h3 class="font-bold text-lg mb-2">Reduce el estrés</h3>
-            <p class="text-lg font-bold text-black">
-              Bailar puede ayudar a reducir el estrés y la ansiedad, ya que
-              libera endorfinas y promueve la relajación.
-            </p>
+            <h3 class="font-bold text-4xl mb-2">Reduce el estrés</h3>
+             <p class="text-2xl font-bold text-black">
+  Bailar puede ayudar a reducir el estrés y la ansiedad, ya que libera endorfinas y promueve la relajación.
+</p>
+
           </div>
         </div>
        <div class="w-full md:w-1/3 px-4 mb-8 flex flex-col">
   <div class="bg-pink-500 text-white py-6 px-4 rounded-lg flex-grow">
-            <h3 class="font-bold text-lg mb-2">Bailar mejora la autoestima</h3>
-            <p class="text-lg font-bold text-black">
+            <h3 class="font-bold text-4xl  mb-2">Bailar mejora la autoestima</h3>
+             <p class="text-2xl font-bold text-black">
               Bailar puede ayudar a mejorar la autoestima y la confianza, ya que
               permite expresarse y ser creativo.
             </p>
@@ -199,17 +204,17 @@
   <!-- Sección de llamado a la acción -->
   <section class="bg-gray-900 py-12">
     <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold mb-4 text-purple-500">¡Comienza a bailar y certificate hoy mismo!</h2>
-      <p class="text-lg text-white mb-8">Este es tu momento.
+      <h2 class="text-4xl font-bold mb-4 text-purple-500">¡Comienza a bailar y certificate hoy mismo!</h2>
+      <p class="text-2xl text-white mb-8">Este es tu momento.
 No esperes más para formarte y capacitarte con nosotros <strong class="text-purple-500">Studio Mix Dance A.P</strong></p>
-      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">¡Adquiri mi curso ahora!</a>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded text-3xl">¡Adquiri mi curso ahora!</a>
     </div>
   </section>
 
 
   <section class="bg-cool-gray-100 py-16">
     <div class="container mx-auto">
-      <h2 class="text-2xl font-bold mb-4 text-purple-500">Sobre Analia Perez</h2>
+      <h2 class="text-4xl font-bold mb-4 text-purple-500">Sobre Analia Perez</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="rounded-circle">
   <img src="https://files.fm/thumb_show.php?i=3rrpwftsx" alt="Foto de Analia Perez" />
@@ -217,27 +222,27 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 
      <div class="m-2">
   <div class="bg-white rounded-lg shadow-lg p-4">
-    <p class="text-gray-700 text-lg mb-4">
+    <p class="text-gray-700 text-xl mb-4">
       Analía Pérez es una reconocida profesora de baile de Villa Gesell, comprometida con la enseñanza y la difusión de la danza en su comunidad. Nació y creció en la ciudad, donde ha desempeñado un papel activo en la escena del baile desde una temprana edad.
     </p>
-    <p class="text-gray-700 text-lg mb-4">
+    <p class="text-gray-700 text-xl mb-4">
       Se recibió en la academia de danzas internacionales de Buenos Aires. También hizo un instructorado profesional en el ceaf de mar del plata y muchas capacitaciones en diferentes escuelas y estudios. Da clases desde el 2005 y actualmente en la casa de la cultura de su ciudad como profesora de baile y en varios estudios de danza.
       Fundó su propio estudio Dance en el año 2021. Desde entonces ha enseñado y capacitado a numerosos bailarines y futuros instructores. También comenzó con su academia de cursos online en el 2020, a los que se han formado más de 1000 alumnos de al menos 4 países.
     </p>
-    <p class="text-gray-700 text-lg mb-4">
+    <p class="text-gray-700 text-xl mb-4">
       En el ámbito del baile, Analía ha sido reconocida por su talento y su dedicación a la enseñanza. Ha participado en numerosos festivales y competencias de danza, y ha ganado varios premios por sus coreografías y su estilo innovador. Ahora, como propietaria y directora de su propia escuela de baile, quiere compartir su pasión y su experiencia con todos aquellos que quieran aprender y disfrutar de la danza.
     </p>
     <div class="flex items-center mt-4">
       <i class="fas fa-graduation-cap fa-lg text-gray-500 mr-2"></i>
-      <span class="text-gray-500">Instructora profesional de danza</span>
+      <span class="text-gray-500 text-xl">Instructora profesional de danza</span>
     </div>
     <div class="flex items-center mt-2">
       <i class="fas fa-chalkboard-teacher fa-lg text-gray-500 mr-2"></i>
-      <span class="text-gray-500">Más de 15 años de experiencia</span>
+      <span class="text-gray-500 text-xl">Más de 15 años de experiencia</span>
     </div>
     <div class="flex items-center mt-2">
       <i class="fas fa-trophy fa-lg text-gray-500 mr-2"></i>
-      <span class="text-gray-500">Ganadora de múltiples premios en festivales y competencias de danza</span>
+      <span class="text-gray-500 text-xl">Ganadora de múltiples premios en festivales y competencias de danza</span>
     </div>
   </div>
 </div>
@@ -259,7 +264,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
           <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.19%20(1).jpeg" alt="Testimonial Image" class="w-full h-auto">
           <div class="p-4">
-            <h3 class="text-lg font-bold text-purple-500 mb-2">Tamara</h3>
+            <h3 class="text-3xl font-bold text-purple-500 mb-2 ">Tamara</h3>
           </div>
         </div>
       </div>
@@ -267,7 +272,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
           <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.19.jpeg" alt="Testimonial Image" class="w-full h-auto">
           <div class="p-4">
-            <h3 class="text-lg font-bold text-purple-500 mb-2">Rodri</h3>
+            <h3 class="text-3xl font-bold text-purple-500 mb-2">Rodri</h3>
           </div>
         </div>
       </div>
@@ -282,7 +287,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
           <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.20%20(1).jpeg" alt="Testimonial Image" class="w-full h-auto">
           <div class="p-4">
-            <h3 class="text-lg font-bold text-purple-500 mb-2">Mari</h3>
+            <h3 class="text-3xl font-bold text-purple-500 mb-2">Mari</h3>
           </div>
         </div>
         
