@@ -246,6 +246,10 @@
           </div>
         </div>
       </div>
+
+      <div>
+<img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/bailaConmigo.jpeg">
+      </div>
     </div>
   </section>
 
