@@ -4,9 +4,16 @@
       <a href="#" class="text-white font-bold text-xl ml-2">Dance MIX</a>
 
       <nav>
-        <a href="#" class="text-white hover:underline mx-4">Inicio</a>
-        <a href="#" class="text-white hover:underline mx-4">Beneficios</a>
-        <a href="#" class="text-white hover:underline mx-4">Contacto</a>
+        <!-- <a href="#" class="text-white hover:underline mx-4">Inicio</a> -->
+        <a href="#beneficios" class="text-white hover:underline mx-4"
+          >Beneficios</a
+        >
+        <a href="#sobreMi" class="text-white hover:underline mx-4">Sobre mi</a>
+        <a href="#precios" class="text-white hover:underline mx-4">Precios</a>
+
+        <router-link to="/clases" class="text-white hover:underline mx-4"
+          >Clases</router-link
+        >
       </nav>
     </div>
   </header>

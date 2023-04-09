@@ -116,7 +116,7 @@
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Acceso ilimitado al curso durante 1 año. Podrás acceder a todas las clases grabadas durante todo un año.</li>
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Certificado avalado por nuestro STUDIO de DANCE. Al finalizar el curso, recibirás un certificado que avala tu aprendizaje.</li>
       </ul>
-      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">¡Adquiri mi curso ahora!</a>
+      <a href="#precios" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded text-4xl">¡Adquiri mi curso ahora!</a>
     </div>
   </div>
 </section>
@@ -155,7 +155,7 @@
 
 
   <!-- Sección de beneficios -->
-  <section class="bg-white py-12">
+  <section id="beneficios" class="bg-white py-12">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-bold mb-8 text-purple-500">
         Beneficios de bailar
@@ -212,7 +212,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
   </section>
 
 
-  <section class="bg-cool-gray-100 py-16">
+  <section id="sobreMi" class="bg-cool-gray-100 py-16">
     <div class="container mx-auto">
       <h2 class="text-4xl font-bold mb-4 text-purple-500">Sobre Analia Perez</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">

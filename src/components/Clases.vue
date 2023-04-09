@@ -47,6 +47,23 @@
         </div>
       </div>
     </div>
+
+    <!-- Sección de certificado -->
+    <div class="mt-10">
+      <h3 class="text-2xl font-bold mb-4 text-purple-500">
+        Obtené tu certificado de finalización del curso
+      </h3>
+      <p class="text-lg mb-4">
+        Contactanos por WhatsApp para recibir tu certificado.
+      </p>
+      <a
+        href="https://wa.me/123456789"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded"
+        >Contactar por WhatsApp</a
+      >
+    </div>
   </section>
 </template>
 
