@@ -1,7 +1,68 @@
 <template>
 <section class="bg-gray-100 py-12">
+<!-- Funcional? -->
+<div class="container mx-auto px-4">
+  <div class="card flex flex-row flex-wrap -mx-4 items-center justify-center">
+    <div class="w-full md:w-1/2 px-4 mb-8 text-center">
+      <h2 class="text-3xl font-bold text-sky-500">
+        Aprende a bailar conmigo
+      </h2>
+      <h3 class="text-2xl font-bold text-purple-500">
+          Las mejores coreograficas paso a paso.
+        </h3>
+
+        <p class="text-lg font-bold text-black-600 my-4">
+          ¿Quieres aprender a bailar de forma divertida y fácil? Soy coreografa y profesora de baile experimentada y
+          estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesion.
+        </p>
+        <p class="text-lg font-bold text-black-600 my-4">
+          En este curso vas a aprender a bailar paso a paso cada estilo coreografico para todas las formaciones y
+          niveles, canons grupales e individuales, vas a aprender salsa, bachata , reggaeton, latino, reggae, pop latino
+          y mucho, mucho más.
+          Mis clases son entendibles, me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo.
+        </p>
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded" @click="openModal">
+          <i class="fas fa-shopping-cart mr-2"></i>¡Adquiri mi curso ahora!
+        </a>
+
+        <!-- Sección para el modal -->
+        <div v-if="showModal" class="fixed z-10 inset-0 overflow-y-auto">
+          <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 transition-opacity">
+              <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+            </div>
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen"></span>&#8203;
+            <div
+              class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+              role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+
+
+              <!-- Contenido del modal -->
+              <div class="p-6">
+                <h2 class="text-xl font-bold mb-4">Realizar pago</h2>
+                <div class="mb-4">
+                  <!-- Agrega aquí el componente de mercado pago -->
+                </div>
+                <div class="flex justify-end">
+                  <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
+                    @click="closeModal">Cerrar</button>
+                </div>
+              </div>
+              <!-- Fin Sección modal -->
+
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="w-full md:w-1/2 px-4 mb-8 text-center">
+      <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/WhatsApp%20Image%202023-04-08%20at%2018.32.35%20(1).jpeg" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- ELIMINAR -->
   <div class="container mx-auto px-4">
-    <div class="card flex flex-wrap -mx-4 items-center justify-center">
+    <div class="card flex flex-row flex-wrap -mx-4 items-center justify-center">
       <div class="w-full md:w-1/2 px-4 mb-8 text-center">
         <h2 class="text-3xl font-bold text-sky-500">
           Aprende a bailar conmigo
@@ -54,7 +115,14 @@
           </div>
         </div>
       </div>
+
+
     </div>
+    
+      <div class="w-full md:w-1/2 px-4 mb-8 text-center">
+        <img src="/public/assets/images/logoAnalia.png" alt="">
+        <h1>asdasd</h1>
+      </div>
   </div>
 </section>
 
