@@ -334,35 +334,39 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 
     <div class="flex flex-wrap justify-center">
 
-     <!-- Opción de precio en pesos argentinos -->
-      <div class="w-full md:w-1/3 px-4 mb-8">
-        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-          <div class="p-4">
-            <h3 class="text-lg font-bold mb-2">Opcion en Pesos</h3>
-            <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
-            <p class="text-4xl font-bold text-purple-500 mb-4">$999 ARS</p>
-            <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
-          </div>
-        </div>
-      </div>
+     <div class="w-full md:w-1/3 px-4 mb-8">
+  <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+    <div class="p-4">
+      <h3 class="text-lg font-bold mb-2">Opcion en Pesos</h3>
+      <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
+      <p class="text-4xl font-bold text-purple-500 mb-4">$999 ARS</p>
+      <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
+    </div>
+  </div>
+</div>
 
-      <!-- Opción de precio en dólares -->
-      <div class="w-full md:w-1/3 px-4 mb-8">
-        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-          <div class="p-4">
-            <h3 class="text-lg font-bold mb-2">Opcion en Dolares</h3>
-            <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
-            <p class="text-4xl font-bold text-purple-500 mb-4">$49</p>
-            <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
-          </div>
-        </div>
-      </div>
+<div class="w-full md:w-1/3 px-4 mb-8">
+  <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+    <div class="p-4">
+      <h3 class="text-lg font-bold mb-2">Opcion en Dolares</h3>
+      <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
+      <p class="text-4xl font-bold text-purple-500 mb-4">$49</p>
+      <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
+    </div>
+  </div>
+</div>
 
-     <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">
-  <i class="fab fa-whatsapp mr-2"></i>
-  Contactar por WhatsApp
-</a>
-
+<div class="w-full md:w-1/3 px-4 mb-8">
+  <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+    <div class="p-4 w-full text-center md:mt-0 mt-4">
+      <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">
+        <i class="fab fa-whatsapp mr-2"></i>
+        Contactar por WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+ 
     </div>
   </div>
 </section>
