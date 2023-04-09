@@ -7,7 +7,7 @@ export function authenticate(username, password) {
       if (username === USERNAME && password === PASSWORD) {
         resolve();
       } else {
-        alert('Incorrecto');
+        alert('Usuario Incorrecto');
         reject();
       }
     }, 500);
