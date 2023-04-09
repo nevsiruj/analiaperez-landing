@@ -21,9 +21,11 @@
         <p class="text-lg font-bold text-black-600 my-4">
           ✴️Aprenderás a bailar salsa, bachata, reggaetón, latino, reggae, pop latino, pop dance, electro pop y muchos más. Mis clases son fáciles de entender y me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo. 👌
         </p>
-        <a  class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded" @click="openModal">
+        <!-- <a  class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded" @click="openModal">
           <i class="fas fa-shopping-cart mr-2"></i>¡Adquiri mi curso ahora!
-        </a>
+        </a> -->
+
+        <a href="#precios" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">¡Adquiri mi curso ahora!</a>        
 
         <!-- Sección para el modal -->
         <div v-if="showModal" class="fixed z-10 inset-0 overflow-y-auto">
@@ -249,34 +251,120 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
     </div>
   </section>
 
-  <section class="bg-gray-100 py-12">
+  <section class="bg-gray-100 py-8">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center mb-8">Testimonios</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="bg-white rounded-lg overflow-hidden shadow-md">
-        <div class="p-4">
-          <p class="text-gray-700 mb-4">"¡Este curso es increíble! Aprendí a bailar en pocos días y ahora puedo sorprender a mis amigos con mis movimientos de salsa y bachata."</p>
-          <h3 class="text-lg font-bold mb-2">Juan Pérez</h3>
-          <p class="text-gray-600">Estudiante del curso de baile</p>
+    <h2 class="text-3xl font-bold mb-4">Testimonios</h2>
+    <div class="flex flex-wrap -mx-4">
+      <div class="w-full md:w-1/2 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.19%20(1).jpeg" alt="Testimonial Image" class="w-full h-auto">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-purple-500 mb-2">Tamara</h3>
+          </div>
         </div>
       </div>
-      <div class="bg-white rounded-lg overflow-hidden shadow-md">
-        <div class="p-4">
-          <p class="text-gray-700 mb-4">"Recomiendo totalmente este curso. Las clases son muy claras y fáciles de seguir, y las coreografías son divertidas y desafiantes. ¡Gracias a este curso, descubrí mi amor por el baile!"</p>
-          <h3 class="text-lg font-bold mb-2">María Fernández</h3>
-          <p class="text-gray-600">Estudiante del curso de baile</p>
+      <div class="w-full md:w-1/2 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.19.jpeg" alt="Testimonial Image" class="w-full h-auto">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-purple-500 mb-2">Rodri</h3>
+          </div>
         </div>
       </div>
-      <div class="bg-white rounded-lg overflow-hidden shadow-md">
-        <div class="p-4">
-          <p class="text-gray-700 mb-4">"Soy instructor de baile desde hace varios años, pero siempre es bueno seguir aprendiendo y mejorando. Este curso me dio nuevas ideas y herramientas para mejorar mis clases y hacerlas más divertidas y efectivas."</p>
-          <h3 class="text-lg font-bold mb-2">Luis Gómez</h3>
-          <p class="text-gray-600">Instructor de baile</p>
+        <div class="w-full md:w-1/2 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.20.jpeg" alt="Testimonial Image" class="w-full h-auto">
+          <div class="p-4">
+          </div>
         </div>
+      </div>
+        <div class="w-full md:w-1/2 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.20%20(1).jpeg" alt="Testimonial Image" class="w-full h-auto">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-purple-500 mb-2">Mari</h3>
+          </div>
+        </div>
+        
+     
+      </div>
+           <div class="w-full md:w-1/2 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.18.jpeg" alt="Testimonial Image" class="w-full h-auto">
+          <div class="p-4">
+          </div>
+        </div>
+      </div>
+      
       </div>
     </div>
   </div>
 </section>
+
+<section class="bg-gray-100 py-8">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-4">Seguinos en Instagram</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div class="insta-card rounded-full overflow-hidden">
+  <a href="#">
+    <img src="https://via.placeholder.com/150" alt="Instagram post image" class="w-full h-full object-cover">
+    <div class="insta-overlay flex items-center justify-center">
+      <i class="fab fa-instagram fa-3x text-white"></i>
+    </div>
+  </a>
+</div>
+
+    </div>
+    <div class="text-center mt-4">
+      <a href="https://www.instagram.com/analia.dance/" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">
+        Seguir a @analia.dance
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="precios" class="bg-gray-100 py-12">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-8 text-purple-500">Precios del curso</h2>
+
+    <div class="flex flex-wrap justify-center">
+
+     <!-- Opción de precio en pesos argentinos -->
+      <div class="w-full md:w-1/3 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+          <div class="p-4">
+            <h3 class="text-lg font-bold mb-2">Opcion en Pesos</h3>
+            <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
+            <p class="text-4xl font-bold text-purple-500 mb-4">$999 ARS</p>
+            <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Opción de precio en dólares -->
+      <div class="w-full md:w-1/3 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+          <div class="p-4">
+            <h3 class="text-lg font-bold mb-2">Opcion en Dolares</h3>
+            <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
+            <p class="text-4xl font-bold text-purple-500 mb-4">$49</p>
+            <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
+          </div>
+        </div>
+      </div>
+
+     <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">
+  <i class="fab fa-whatsapp mr-2"></i>
+  Contactar por WhatsApp
+</a>
+
+    </div>
+  </div>
+</section>
+
+
+
+
 
 
   <footer class="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-6">
@@ -373,6 +461,10 @@ a {
   height: 100%;
 }
 
+
+.insta-card img {
+  border-radius: 50%;
+}
 
 
 </style>
