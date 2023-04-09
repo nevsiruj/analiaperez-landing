@@ -10,7 +10,13 @@
         items-center
       "
     >
-      <a href="#" class="text-white font-bold text-xl ml-2">Dance MIX</a>
+      <!-- <a href="#" class="text-white font-bold text-xl ml-2">Dance MIX</a> -->
+      <div class="logo h-12 w-28">
+        <!-- <img
+          src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/Analia%20Perez%20transparente%20(2).png"
+          alt=""
+        /> -->
+      </div>
 
       <nav class="text-center md:text-left">
         <a href="#beneficios" class="text-white hover:underline mx-4"
@@ -34,3 +40,10 @@ export default {
   props: {},
 };
 </script>
+
+<style scoped>
+.logo {
+  background-image: url('https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/Analia%20Perez%20transparente%20(2).png');
+  background-size: cover;
+}
+</style>
