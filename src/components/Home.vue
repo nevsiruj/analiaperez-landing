@@ -21,7 +21,7 @@
         <p class="text-lg font-bold text-black-600 my-4">
           ✴️Aprenderás a bailar salsa, bachata, reggaetón, latino, reggae, pop latino, pop dance, electro pop y muchos más. Mis clases son fáciles de entender y me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo. 👌
         </p>
-        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded" @click="openModal">
+        <a  class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded" @click="openModal">
           <i class="fas fa-shopping-cart mr-2"></i>¡Adquiri mi curso ahora!
         </a>
 
@@ -60,70 +60,6 @@
   </div>
 </div>
 
-<!-- ELIMINAR -->
-  <div class="container mx-auto px-4">
-    <div class="card flex flex-row flex-wrap -mx-4 items-center justify-center">
-      <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-        <h2 class="text-3xl font-bold text-sky-500">
-          Aprende a bailar conmigo
-        </h2>
-
-        <h3 class="text-2xl font-bold text-purple-500">
-          Las mejores coreograficas paso a paso.
-        </h3>
-
-        <p class="text-lg font-bold text-black-600 my-4">
-          ¿Quieres aprender a bailar de forma divertida y fácil? Soy coreografa y profesora de baile experimentada y
-          estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesion.
-        </p>
-        <p class="text-lg font-bold text-black-600 my-4">
-          En este curso vas a aprender a bailar paso a paso cada estilo coreografico para todas las formaciones y
-          niveles, canons grupales e individuales, vas a aprender salsa, bachata , reggaeton, latino, reggae, pop latino
-          y mucho, mucho más.
-          Mis clases son entendibles, me gusta que mis estudiantes y futuros instructores aprendan a su propio ritmo.
-        </p>
-        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded" @click="openModal">
-          <i class="fas fa-shopping-cart mr-2"></i>¡Adquiri mi curso ahora!
-        </a>
-
-        <!-- Sección para el modal -->
-        <div v-if="showModal" class="fixed z-10 inset-0 overflow-y-auto">
-          <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-            <div class="fixed inset-0 transition-opacity">
-              <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
-            </div>
-            <span class="hidden sm:inline-block sm:align-middle sm:h-screen"></span>&#8203;
-            <div
-              class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
-              role="dialog" aria-modal="true" aria-labelledby="modal-headline">
-
-
-              <!-- Contenido del modal -->
-              <div class="p-6">
-                <h2 class="text-xl font-bold mb-4">Realizar pago</h2>
-                <div class="mb-4">
-                  <!-- Agrega aquí el componente de mercado pago -->
-                </div>
-                <div class="flex justify-end">
-                  <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
-                    @click="closeModal">Cerrar</button>
-                </div>
-              </div>
-              <!-- Fin Sección modal -->
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-    
-      <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-        <img src="/public/assets/images/logoAnalia.png" alt="">
-        <h1>asdasd</h1>
-      </div>
-  </div>
 </section>
 
 
@@ -218,8 +154,8 @@
         Beneficios de bailar
       </h2>
       <div class="flex flex-wrap -mx-4">
-        <div class="w-full md:w-1/3 px-4 mb-8">
-          <div class="bg-purple-500 text-white py-6 px-4 rounded-lg">
+<div class="w-full md:w-1/3 px-4 mb-8 flex flex-col">
+  <div class="bg-purple-500 text-white py-6 px-4 rounded-lg flex-grow">
             <h3 class="font-bold text-lg mb-2">Mejora la salud</h3>
            <p class="text-lg font-bold text-black">
               Bailar es una excelente forma de hacer ejercicio y mejorar la
@@ -227,8 +163,8 @@
             </p>
           </div>
         </div>
-        <div class="w-full md:w-1/3 px-4 mb-8">
-          <div class="bg-sky-400 text-white py-6 px-4 rounded-lg">
+  <div class="w-full md:w-1/3 px-4 mb-8 flex flex-col">
+  <div class="bg-sky-400 text-white py-6 px-4 rounded-lg flex-grow">
             <h3 class="font-bold text-lg mb-2">Reduce el estrés</h3>
             <p class="text-lg font-bold text-black">
               Bailar puede ayudar a reducir el estrés y la ansiedad, ya que
@@ -236,8 +172,8 @@
             </p>
           </div>
         </div>
-        <div class="w-full md:w-1/3 px-4 mb-8">
-          <div class="bg-pink-500 text-white py-6 px-4 rounded-lg">
+       <div class="w-full md:w-1/3 px-4 mb-8 flex flex-col">
+  <div class="bg-pink-500 text-white py-6 px-4 rounded-lg flex-grow">
             <h3 class="font-bold text-lg mb-2">Bailar mejora la autoestima</h3>
             <p class="text-lg font-bold text-black">
               Bailar puede ayudar a mejorar la autoestima y la confianza, ya que
@@ -247,9 +183,14 @@
         </div>
       </div>
 
-      <div>
-<img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/bailaConmigo.jpeg">
-      </div>
+     <div class="flex justify-center">
+  <img 
+    src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/bailaConmigo.jpeg" 
+    alt="Imagen de persona bailando" 
+    class="mx-auto w-full sm:w-auto"
+  >
+</div>
+
     </div>
   </section>
 
@@ -307,6 +248,36 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
       </div>
     </div>
   </section>
+
+  <section class="bg-gray-100 py-12">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">Testimonios</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white rounded-lg overflow-hidden shadow-md">
+        <div class="p-4">
+          <p class="text-gray-700 mb-4">"¡Este curso es increíble! Aprendí a bailar en pocos días y ahora puedo sorprender a mis amigos con mis movimientos de salsa y bachata."</p>
+          <h3 class="text-lg font-bold mb-2">Juan Pérez</h3>
+          <p class="text-gray-600">Estudiante del curso de baile</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow-md">
+        <div class="p-4">
+          <p class="text-gray-700 mb-4">"Recomiendo totalmente este curso. Las clases son muy claras y fáciles de seguir, y las coreografías son divertidas y desafiantes. ¡Gracias a este curso, descubrí mi amor por el baile!"</p>
+          <h3 class="text-lg font-bold mb-2">María Fernández</h3>
+          <p class="text-gray-600">Estudiante del curso de baile</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow-md">
+        <div class="p-4">
+          <p class="text-gray-700 mb-4">"Soy instructor de baile desde hace varios años, pero siempre es bueno seguir aprendiendo y mejorando. Este curso me dio nuevas ideas y herramientas para mejorar mis clases y hacerlas más divertidas y efectivas."</p>
+          <h3 class="text-lg font-bold mb-2">Luis Gómez</h3>
+          <p class="text-gray-600">Instructor de baile</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <footer class="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-6">
     <div class="container mx-auto px-4">
