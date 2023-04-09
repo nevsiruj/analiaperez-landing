@@ -19,14 +19,13 @@
         <a href="#sobreMi" class="text-white hover:underline mx-4">Sobre mi</a>
         <a href="#precios" class="text-white hover:underline mx-4">Precios</a>
 
-        <router-link to="/clases" class="text-white hover:underline mx-4"
-          >Clases</router-link
-        >
+        <router-link to="/clases" class="text-white hover:underline mx-4">
+          <i class="fas fa-user-circle mr-2"></i>
+          <span class="font-bold">Ingresar</span>
+        </router-link>
       </nav>
     </div>
   </header>
-  Esto debería solucionar el problema de la visualización en dispositivos
-  móviles.
 </template>
 
 <script>
