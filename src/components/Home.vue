@@ -25,7 +25,7 @@
           <i class="fas fa-shopping-cart mr-2"></i>¡Adquiri mi curso ahora!
         </a> -->
 
-        <a href="#precios" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">¡Adquiri mi curso ahora!</a>        
+        <a href="#precios" class="text-2xl bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">¡Adquiri mi curso ahora!</a>        
 
         <!-- Sección para el modal -->
         <div v-if="showModal" class="fixed z-10 inset-0 overflow-y-auto">
