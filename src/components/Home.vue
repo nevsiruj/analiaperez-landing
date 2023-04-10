@@ -1,7 +1,6 @@
 <template>
+<!-- Funcional -->
 <section class="bg-gray-100 py-12">
-<!-- Funcional? -->
-
 
 <div class="container mx-auto px-4">
   <div class="card flex flex-row flex-wrap -mx-4 items-center justify-center">
@@ -420,6 +419,11 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 </section>
 
 
+<a href="https://wa.me/123456789" class="whatsapp" target="_blank" rel="noopener noreferrer">
+  <i class="fa fa-whatsapp"></i> ¡Contáctanos por WhatsApp!
+</a>
+
+
 
   <footer class="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-6">
     <div class="container mx-auto px-4">
@@ -553,6 +557,17 @@ const renderPaymentBrick = async (bricksBuilder) => {
 };
 renderPaymentBrick(bricksBuilder);
 
+window.addEventListener('scroll', function() {
+  var whatsappButton = document.querySelector('.whatsapp');
+  var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop;
+  if (distanceFromTop > 100) {
+    whatsappButton.classList.add('visible');
+  } else {
+    whatsappButton.classList.remove('visible');
+  }
+});
+
+
 
 export default {
   name: 'Home',
@@ -644,6 +659,29 @@ a {
 .insta-card img {
   border-radius: 50%;
 }
+
+
+/* Whatsapp */
+
+.whatsapp {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.whatsapp:hover {
+  background-color: #25d366;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
 
 
 </style>
