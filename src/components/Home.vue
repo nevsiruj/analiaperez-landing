@@ -428,7 +428,9 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
   </footer>
 </template>
 
+
 <script>
+
 
 const mp = new MercadoPago('TEST-e81e145a-fe1d-4eec-b023-2fab28fd976e');
 const bricksBuilder = mp.bricks();
