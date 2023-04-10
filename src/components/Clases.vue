@@ -156,7 +156,7 @@
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">09 - Pop Dance</h3>
+            <h3 class="text-2xl font-bold mb-2">09 - Pop Dances</h3>
           </div>
         </div>
       </div>
