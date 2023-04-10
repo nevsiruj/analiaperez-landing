@@ -324,7 +324,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 
     </div>
     <div class="text-center mt-4">
-      <a href="https://www.instagram.com/Analia.Dance/" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">
+      <a href="https://www.instagram.com/Analia.Dance/" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded" target="_blank">
         Seguir a @analia.dance
       </a>
     </div>
@@ -342,7 +342,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
     <div class="p-4">
       <h3 class="text-lg font-bold mb-2">Opcion en Pesos</h3>
       <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
-      <p class="text-4xl font-bold text-purple-500 mb-4">$999 ARS</p>
+      <p class="text-4xl font-bold text-purple-500 mb-4">$7000 ARS</p>
       <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
     </div>
   </div>
