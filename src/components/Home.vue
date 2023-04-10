@@ -56,9 +56,10 @@
           </div>
         </div>
     </div>
-    <!-- <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-      <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/WhatsApp%20Image%202023-04-08%20at%2018.32.35%20(1).jpeg" alt="">
-    </div> -->
+    <div class="w-full md:w-1/2 px-4 mb-8 text-center">
+      <img src="https://files.fm/thumb_show.php?i=jdbhsjhzk" alt="">
+    </div>
+
   </div>
 </div>
 
@@ -278,7 +279,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
       </div>
         <div class="w-full md:w-1/2 px-4 mb-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.20.jpeg" alt="Testimonial Image" class="w-full h-auto">
+          <img src="https://files.fm/thumb_show.php?i=354dhcv35" alt="Testimonial Image" class="w-full h-auto">
           <div class="p-4">
           </div>
         </div>
@@ -290,6 +291,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
             <h3 class="text-3xl font-bold text-purple-500 mb-2">Mari</h3>
           </div>
         </div>
+        
         
      
       </div>
