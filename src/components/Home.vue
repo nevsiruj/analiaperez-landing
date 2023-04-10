@@ -55,6 +55,7 @@
             </div>
           </div>
         </div>
+        
     </div>
     <div class="w-full md:w-1/2 px-4 mb-8 text-center">
       <img src="https://files.fm/thumb_show.php?i=jdbhsjhzk" alt="">
@@ -343,7 +344,39 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
       <h3 class="text-lg font-bold mb-2">Opcion en Pesos</h3>
       <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
       <p class="text-4xl font-bold text-purple-500 mb-4">$7000 ARS</p>
-      <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
+      <a @click="openModal()" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
+
+             <!-- Sección para el modal -->
+        <div v-if="showModal" class="fixed z-10 inset-0 overflow-y-auto">
+          <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 transition-opacity">
+              <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+            </div>
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen"></span>&#8203;
+            <div
+              class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+              role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+
+
+              <!-- Contenido del modal -->
+              <div class="p-6">
+                <h2 class="text-xl font-bold mb-4">Realizar pago</h2>
+                <div class="mb-4">
+                  <!-- Agrega aquí el componente de mercado pago -->
+                </div>
+                <div class="flex justify-end">
+                  <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
+                    @click="closeModal">Cerrar</button>
+                </div>
+              </div>
+        
+
+            </div>
+          </div>
+        </div>
+              <!-- Fin Sección modal -->
+
+
     </div>
   </div>
 </div>
@@ -360,7 +393,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 </div>
 
 <div class=" md:w-1/2 px-4 mb-8 mt-3 md:pl-2 w-full">
-  <div class="bg-white rounded-lg overflow-hidden bg-transparent">
+  <div class="rounded-lg overflow-hidden bg-transparent">
     <div class="p-4 w-full text-center md:mt-0 mt-4">
       <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white py-6 px-6 rounded">
         <i class="fab fa-whatsapp mr-2"></i>
@@ -387,6 +420,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 </template>
 
 <script>
+
 export default {
   name: 'Home',
   props: {},
@@ -394,7 +428,7 @@ export default {
     return {
       showModal: false,
     };
-  },
+  },  
   methods: {
     openModal() {
       this.showModal = true;
