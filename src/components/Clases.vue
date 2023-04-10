@@ -31,6 +31,7 @@
             <h3 class="text-2xl font-bold mb-2">01 - Pop Latino</h3>
           </div>
         </div>
+
         <!-- Agregar más iframes aquí -->
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
           <iframe
@@ -42,6 +43,120 @@
           ></iframe>
           <div class="p-4">
             <h3 class="text-2xl font-bold mb-2">02 - Coreo Pop-Regge</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1dmh3kDjxq6ZY6MW2P0fbPEhQHmOuDyzW/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">
+              03 - Reggaeton Intermedio-Avanzado
+            </h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1dRm2mQemITlM9LBr_LpPy0p-V2R81pue/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">04 - Cumbia</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1txBT6zW6_U1TQjK7nOElAGyivwjOIl6K/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">05 - Bachata</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/11_NFcRSWQOqkHxCR9K9HAud8bAkcLJ8X/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">06 - Reggaeton Avanzado</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1tivscByA8a1m577-nLdACgBMuH2FPZeZ/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">07 - Electro Pop</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1ehY-SsHa0235w5OpolPBp_LwgHc8dIhQ/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">08 - Salsa</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1tivscByA8a1m577-nLdACgBMuH2FPZeZ/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">09 - Pop Dance</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1WRXBW7dnOllPrsDN72Pj91qJdE6AltO5/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">09 - Pop Dance</h3>
           </div>
         </div>
       </div>
