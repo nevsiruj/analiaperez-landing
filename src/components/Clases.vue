@@ -159,6 +159,62 @@
             <h3 class="text-2xl font-bold mb-2">09 - Pop Dances</h3>
           </div>
         </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/13s8j9ZgLXslp0IXllLzTWP5Mpa69jqjH/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">Coreo Grupal - Reggaeton</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1IjsW9O9hv1IY0onpdeKkjqYF2gGDMYAp/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">Coreo Grupal - Chocogesell</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1nddNljzVIQu8WO5ZFh4kRK8m0WAK3YY5/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">Coreo Grupal - Karol G</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1QvpZ7WRNDHZl4qxjQ89Q1IOyWbiU7Cqa/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">Coreo Grupal - Bachata</h3>
+          </div>
+        </div>
       </div>
     </div>
 
