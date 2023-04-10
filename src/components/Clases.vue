@@ -41,7 +41,7 @@
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">03 - Coreo Pop-Regge</h3>
+            <h3 class="text-2xl font-bold mb-2">02 - Coreo Pop-Regge</h3>
           </div>
         </div>
       </div>

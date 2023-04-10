@@ -87,7 +87,7 @@
 
 <div class="video-card">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/N4NzXAMflpw" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/Cl_w9Djgq2w" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -308,20 +308,21 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 
 <section class="bg-gray-100 py-8">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center mb-4">Seguinos en Instagram</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <h2 class="text-4xl font-bold text-center mb-4 text-purple-500">Seguinos en Instagram</h2>
+    <!-- <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"> -->
     <div class="insta-card rounded-full overflow-hidden">
   <a href="#">
-    <img src="https://via.placeholder.com/150" alt="Instagram post image" class="w-full h-full object-cover">
-    <div class="insta-overlay flex items-center justify-center">
+  <!-- Imagen seccion IG -->
+    <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/imagenIG.jpg" alt="Instagram post image" class="mx-auto w-96 h-96 rounded-full object-cover">
+    <!-- <div class="insta-overlay flex items-center justify-center">
       <i class="fab fa-instagram fa-3x text-white"></i>
-    </div>
+    </div> -->
   </a>
 </div>
 
     </div>
     <div class="text-center mt-4">
-      <a href="https://www.instagram.com/analia.dance/" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">
+      <a href="https://www.instagram.com/Analia.Dance/" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">
         Seguir a @analia.dance
       </a>
     </div>
@@ -334,7 +335,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 
     <div class="flex flex-wrap justify-center">
 
-     <div class="w-full md:w-1/3 px-4 mb-8">
+    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0 md:pr-2">
   <div class="bg-white rounded-lg overflow-hidden shadow-lg">
     <div class="p-4">
       <h3 class="text-lg font-bold mb-2">Opcion en Pesos</h3>
@@ -345,7 +346,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
   </div>
 </div>
 
-<div class="w-full md:w-1/3 px-4 mb-8">
+<div class="w-full md:w-1/3 px-4 mb-8 md:mb-0 md:pl-2 md:pr-2">
   <div class="bg-white rounded-lg overflow-hidden shadow-lg">
     <div class="p-4">
       <h3 class="text-lg font-bold mb-2">Opcion en Dolares</h3>
@@ -356,10 +357,10 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
   </div>
 </div>
 
-<div class="w-full md:w-1/3 px-4 mb-8">
-  <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+<div class=" md:w-1/2 px-4 mb-8 mt-3 md:pl-2 w-full">
+  <div class="bg-white rounded-lg overflow-hidden bg-transparent">
     <div class="p-4 w-full text-center md:mt-0 mt-4">
-      <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">
+      <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white py-6 px-6 rounded">
         <i class="fab fa-whatsapp mr-2"></i>
         Contactar por WhatsApp
       </a>
