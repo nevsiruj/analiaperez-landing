@@ -1,6 +1,8 @@
 <template>
 <section class="bg-gray-100 py-12">
 <!-- Funcional? -->
+
+
 <div class="container mx-auto px-4">
   <div class="card flex flex-row flex-wrap -mx-4 items-center justify-center">
     <div class="w-full md:w-1/2 px-4 mb-8 text-center">
@@ -344,7 +346,10 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
       <h3 class="text-lg font-bold mb-2">Opcion en Pesos</h3>
       <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
       <p class="text-4xl font-bold text-purple-500 mb-4">$7000 ARS</p>
-      <a @click="openModal()" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
+      <!-- <a @click="openModal()" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a> -->
+
+         <div id="paymentBrick_container"></div>
+      
 
              <!-- Sección para el modal -->
         <div v-if="showModal" class="fixed z-10 inset-0 overflow-y-auto">
@@ -363,8 +368,13 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
                 <h2 class="text-xl font-bold mb-4">Realizar pago</h2>
                 <div class="mb-4">
                   <!-- Agrega aquí el componente de mercado pago -->
+
+         
+
+
                 </div>
                 <div class="flex justify-end">
+                
                   <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
                     @click="closeModal">Cerrar</button>
                 </div>
@@ -376,10 +386,11 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
         </div>
               <!-- Fin Sección modal -->
 
-
     </div>
   </div>
 </div>
+
+      
 
 <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0 md:pl-2 md:pr-2">
   <div class="bg-white rounded-lg overflow-hidden shadow-lg">
@@ -391,6 +402,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
     </div>
   </div>
 </div>
+
 
 <div class=" md:w-1/2 px-4 mb-8 mt-3 md:pl-2 w-full">
   <div class="rounded-lg overflow-hidden bg-transparent">
@@ -409,9 +421,6 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 
 
 
-
-
-
   <footer class="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-6">
     <div class="container mx-auto px-4">
       <p class="text-center">Dance MIX. &copy; 2023. </p>
@@ -420,6 +429,128 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 </template>
 
 <script>
+
+const mp = new MercadoPago('TEST-e81e145a-fe1d-4eec-b023-2fab28fd976e');
+const bricksBuilder = mp.bricks();
+
+
+// Integracion de preferencia 
+
+const url = 'https://api.mercadopago.com/checkout/preferences';
+const accessToken = 'TEST-3803991155417712-040921-27c390e89bd3b83779feb04c799cc870-266655375';
+
+let preference = {
+  // el "purpose": "wallet_purchase" solo permite pagos registrados
+  // para permitir pagos de guests puede omitir esta propiedad
+  // "purpose": "wallet_purchase",
+  "items": [
+    {
+      "id": "item-ID-1234",
+      "title": "Curso Baila Conmigo",
+      "quantity": 1,
+      "unit_price": 7000
+    }
+  ],
+  "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": "cash"
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": "ticket"
+            }
+        ],
+        "installments": 12
+    },
+    "binary_mode": true
+};
+
+const prefId = '266655375-be6f0027-15b5-44d0-ad7c-7e51dfa6c54d'
+
+const crearPreferencia = () => {
+  fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${accessToken}`
+    },
+    body: JSON.stringify(preference)
+  })
+  .then(response => response.json())
+  .then(data => {
+    const preferenceId = data.id;
+    console.log(preferenceId);
+    // Aquí puedes utilizar el ID de preferencia para renderizar el widget de pago de Bricks
+  })
+  .catch(error => {
+    console.error(error);
+    // Aquí puedes manejar los errores de la solicitud HTTP
+  });
+} 
+
+
+const renderPaymentBrick = async (bricksBuilder) => {
+ const settings = {
+     locale: "es-AR",
+   initialization: {
+     /*
+      "amount" es el monto total a pagar por todos los medios de pago con excepción de la Cuenta de Mercado Pago y Cuotas sin tarjeta de crédito, las cuales tienen su valor de procesamiento determinado en el backend a través del "preferenceId"
+     */
+     amount: 7000,
+     preferenceId: prefId,
+   },
+   customization: {
+     paymentMethods: {
+       ticket: "all",
+       creditCard: "all",
+       debitCard: "all",
+       mercadoPago: "all",
+     },
+   },
+   callbacks: {
+     onReady: () => {
+       /*
+        Callback llamado cuando el Brick está listo.
+        Aquí puede ocultar cargamentos de su sitio, por ejemplo.
+       */
+     },
+     onSubmit: ({ selectedPaymentMethod, formData }) => {
+       // callback llamado al hacer clic en el botón enviar datos
+       return new Promise((resolve, reject) => {
+         fetch("/process_payment", {
+           method: "POST",
+           headers: {
+             "Content-Type": "application/json",
+           },
+           body: JSON.stringify(formData),
+         })
+           .then((response) => response.json())
+           .then((response) => {
+             // recibir el resultado del pago
+             resolve();
+           })
+           .catch((error) => {
+             // manejar la respuesta de error al intentar crear el pago
+             reject();
+           });
+       });
+     },
+     onError: (error) => {
+       // callback llamado para todos los casos de error de Brick
+       console.error(error);
+     },
+   },
+ };
+ window.paymentBrickController = await bricksBuilder.create(
+   "payment",
+   "paymentBrick_container",
+   settings
+ );
+};
+renderPaymentBrick(bricksBuilder);
+
 
 export default {
   name: 'Home',
