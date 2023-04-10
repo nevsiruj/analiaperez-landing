@@ -120,6 +120,7 @@
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Certificado avalado por nuestro STUDIO de DANCE. Al finalizar el curso, recibirás un certificado que avala tu aprendizaje.</li>
       </ul>
       <a href="#precios" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded text-4xl">¡Adquiri mi curso ahora!</a>
+      
     </div>
   </div>
 </section>
@@ -251,7 +252,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 </div>
 
 
-        <a href="https://wa.me/549XXXXXXXXXX" target="_blank" rel="noopener" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+        <a href="https://wa.me/+5492255427173" target="_blank" rel="noopener" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
   <i class="fab fa-whatsapp"></i> Contacta con Analía
 </a>
         </div>
@@ -367,9 +368,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
                 <h2 class="text-xl font-bold mb-4">Realizar pago</h2>
                 <div class="mb-4">
                   <!-- Agrega aquí el componente de mercado pago -->
-
          
-
 
                 </div>
                 <div class="flex justify-end">
@@ -406,7 +405,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 <div class=" md:w-1/2 px-4 mb-8 mt-3 md:pl-2 w-full">
   <div class="rounded-lg overflow-hidden bg-transparent">
     <div class="p-4 w-full text-center md:mt-0 mt-4">
-      <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white py-6 px-6 rounded">
+      <a href="https://wa.me/+5492255427173" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white py-6 px-6 rounded">
         <i class="fab fa-whatsapp mr-2"></i>
         Contactar por WhatsApp
       </a>
@@ -419,11 +418,15 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 </section>
 
 
-<a href="https://wa.me/123456789" class="whatsapp" target="_blank" rel="noopener noreferrer">
-  <i class="fa fa-whatsapp"></i> ¡Contáctanos por WhatsApp!
+<a href="https://wa.me/+5492255427173" class="whatsapp" target="_blank" rel="noopener noreferrer">
+  <!-- <i class="fa fa-whatsapp"></i> -->
+    <i class="fab fa-whatsapp fa-3x"></i>
 </a>
 
-
+ <button @click="mostrarTemporal">Generar usuario y contraseña temporal</button>
+    <div v-if="mostrarPaginaTemporal">
+      <Temporal />
+    </div>
 
   <footer class="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-6">
     <div class="container mx-auto px-4">
@@ -567,14 +570,19 @@ window.addEventListener('scroll', function() {
   }
 });
 
-
+import Temporal from "./Temporal.vue";
 
 export default {
+   components: {
+    Temporal,
+  },
   name: 'Home',
   props: {},
    data() {
     return {
       showModal: false,
+      mostrarPaginaTemporal: false
+
     };
   },  
   methods: {
@@ -583,6 +591,9 @@ export default {
     },
     closeModal() {
       this.showModal = false;
+    },
+    mostrarTemporal() {
+      this.mostrarPaginaTemporal = true;
     },
   },
 };
