@@ -227,7 +227,7 @@
         Contactanos por WhatsApp para recibir tu certificado.
       </p>
       <a
-        href="https://wa.me/123456789"
+        href="https://wa.me/+5492255427173"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded"
