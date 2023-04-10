@@ -56,9 +56,9 @@
           </div>
         </div>
     </div>
-    <div class="w-full md:w-1/2 px-4 mb-8 text-center">
+    <!-- <div class="w-full md:w-1/2 px-4 mb-8 text-center">
       <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/WhatsApp%20Image%202023-04-08%20at%2018.32.35%20(1).jpeg" alt="">
-    </div>
+    </div> -->
   </div>
 </div>
 
