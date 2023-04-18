@@ -2,12 +2,12 @@
   <section class="bg-gray-200 py-12">
     <div class="max-w-4xl mx-auto px-6">
       <div class="flex flex-col md:flex-row items-center justify-between">
-        <div class="md:w-1/2 mb-8 md:mb-0">
+        <div class="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
           <h2 class="text-3xl font-bold mb-4">
             ¡Bienvenido al curso de baile!
           </h2>
           <p class="text-lg mb-6">
-            Aprende los mejores movimientos de baile con nuestros profesionales.
+            Aprende los mejores movimientos de baile con Analia Perez.
             Accede ahora y comienza a bailar como un verdadero experto.
           </p>
           <a
