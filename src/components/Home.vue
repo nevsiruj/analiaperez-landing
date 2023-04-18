@@ -348,7 +348,17 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
       <p class="text-4xl font-bold text-purple-500 mb-4">$7000 ARS</p>
       <!-- <a @click="openModal()" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a> -->
 
-         <div id="paymentBrick_container"></div>
+      <a href="https://mpago.la/1maCNCV">
+      Pagar
+      </a>
+
+<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="266655375-911e7705-596d-49e0-8fb6-6d33f7cfc25d" data-source="button">
+</script>
+
+
+
+         <!-- <div id="paymentBrick_container"></div> -->
       
 
              <!-- Sección para el modal -->
@@ -439,14 +449,16 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 <script>
 
 
-const mp = new MercadoPago('TEST-e81e145a-fe1d-4eec-b023-2fab28fd976e');
+// const mp = new MercadoPago('TEST-e81e145a-fe1d-4eec-b023-2fab28fd976e');
+const mp = new MercadoPago('APP_USR-98ab05c8-ccf2-415c-91f4-ff085035f189');
 const bricksBuilder = mp.bricks();
 
 
 // Integracion de preferencia 
 
 const url = 'https://api.mercadopago.com/checkout/preferences';
-const accessToken = 'TEST-3803991155417712-040921-27c390e89bd3b83779feb04c799cc870-266655375';
+// const accessToken = 'TEST-3803991155417712-040921-27c390e89bd3b83779feb04c799cc870-266655375';
+const accessToken = 'APP_USR-2193470693752697-041712-4e4888b81e28061ecfa133901b8f0858-698110879';
 
 let preference = {
   // el "purpose": "wallet_purchase" solo permite pagos registrados
@@ -476,7 +488,7 @@ let preference = {
     "binary_mode": true
 };
 
-const prefId = '266655375-be6f0027-15b5-44d0-ad7c-7e51dfa6c54d'
+const prefId = '698110879-50b0d64b-2f8f-487c-9e56-9abed4c2e791'
 
 const crearPreferencia = () => {
   fetch(url, {
@@ -499,6 +511,7 @@ const crearPreferencia = () => {
   });
 } 
 
+// crearPreferencia()
 
 const renderPaymentBrick = async (bricksBuilder) => {
  const settings = {
