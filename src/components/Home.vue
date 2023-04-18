@@ -347,7 +347,9 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
       <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
       <p class="text-4xl font-bold text-purple-500 mb-4">$7000 ARS</p>
       <!-- <a @click="openModal()" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a> -->
-      <a href="https://mpago.la/1maCNCV" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
+      <!-- <a href="https://mpago.la/1maCNCV" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a> -->
+
+      <a href="https://mpago.la/1huKYcE" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
 
     <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
     data-preference-id="266655375-911e7705-596d-49e0-8fb6-6d33f7cfc25d" data-source="button">
