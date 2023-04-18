@@ -35,13 +35,6 @@
             ¿Olvidaste tu usuario o contraseña?
           </a>
         </div>
-        <div class="md:w-1/2">
-          <img
-            class="w-full h-auto"
-            src="https://via.placeholder.com/500x500"
-            alt="Imagen de baile"
-          />
-        </div>
       </div>
     </div>
   </section>
