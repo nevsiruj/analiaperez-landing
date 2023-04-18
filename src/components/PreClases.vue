@@ -28,6 +28,7 @@
             <i class="fas fa-sign-in-alt mr-2"></i>
             <span>Acceder al Curso</span>
           </a>
+          <br />
           <a
             href="https://wa.me/+5492255427173"
             class="text-gray-600 hover:text-gray-800 text-sm"
