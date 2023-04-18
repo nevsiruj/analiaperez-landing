@@ -1,8 +1,8 @@
 // const USERNAME = 'user399';
 // const PASSWORD = 'cK7@nDh8';
 
-const USERNAME = '123';
-const PASSWORD = '123';
+const USERNAME = 'user2023';
+const PASSWORD = 'analiadance.2023';
 
 export function authenticate(username, password) {
   return new Promise((resolve, reject) => {

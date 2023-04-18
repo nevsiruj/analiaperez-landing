@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './components/Home.vue';
 import Clases from './components/Clases.vue';
+import ShowUser from './components/ShowUser.vue';
+import PreClases from './components/PreClases.vue';
 import { authenticate } from './auth';
 
 const routes = [
@@ -14,6 +16,17 @@ const routes = [
     name: 'clases',
     component: Clases,
     meta: { requiresAuth: true },
+  },
+  {
+    path: '/usuario',
+    name: 'usuario',
+    component: ShowUser,
+    // meta: { requiresAuth: true },
+  },
+  {
+    path: '/preclases',
+    name: 'preclases',
+    component: PreClases,
   },
 ];
 
