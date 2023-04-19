@@ -261,52 +261,55 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
   </section>
 
   <section class="bg-gray-100 py-8">
-  <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-4">Testimonios</h2>
+  <div class="container mx-auto px-2">
+    <h2 class="text-3xl font-bold text-center mb-4">Testimonios</h2>
     <div class="flex flex-wrap -mx-4">
       <div class="w-full md:w-1/2 px-4 mb-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.19%20(1).jpeg" alt="Testimonial Image" class="w-full h-auto">
+          <img src="https://files.fm/thumb.php?i=vhdxth6tj" alt="Testimonial Image" class="w-full h-auto">
           <div class="p-4">
-            <h3 class="text-3xl font-bold text-purple-500 mb-2 ">Tamara</h3>
+            <h3 class="text-lg font-bold text-purple-500 mb-4">Tamara</h3>
           </div>
         </div>
       </div>
       <div class="w-full md:w-1/2 px-4 mb-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.19.jpeg" alt="Testimonial Image" class="w-full h-auto">
+          <img src="https://files.fm/thumb_show.php?i=yjynmyhrv" alt="Testimonial Image" class="w-full h-auto">
           <div class="p-4">
-            <h3 class="text-3xl font-bold text-purple-500 mb-2">Rodri</h3>
+            <h3 class="text-lg font-bold text-purple-500 mb-4">Yesi</h3>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img src="https://files.fm/thumb_show.php?i=qsaksnypr" alt="Testimonial Image" class="w-full h-auto">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-purple-500 mb-4"></h3>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img src="https://files.fm/thumb_show.php?i=sn6r9jxw3" alt="Testimonial Image" class="w-full h-auto">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-purple-500 mb-4">Rodri</h3>
+          </div>
+        </div>
+      </div>      
+         <div class="w-full md:w-1/2 px-4 mb-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img src="https://files.fm/thumb_show.php?i=bv4bvusgg" alt="Testimonial Image" class="w-full h-auto">
+          <div class="p-4">
           </div>
         </div>
       </div>
         <div class="w-full md:w-1/2 px-4 mb-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://files.fm/thumb_show.php?i=354dhcv35" alt="Testimonial Image" class="w-full h-auto">
-          <div class="p-4">
-          </div>
-        </div>
-      </div>
-        <div class="w-full md:w-1/2 px-4 mb-8">
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.20%20(1).jpeg" alt="Testimonial Image" class="w-full h-auto">
+          <img src="https://files.fm/thumb_show.php?i=t36py8txd" alt="Testimonial Image" class="w-full h-auto">
           <div class="p-4">
             <h3 class="text-3xl font-bold text-purple-500 mb-2">Mari</h3>
           </div>
-        </div>
-        
-        
-     
-      </div>
-           <div class="w-full md:w-1/2 px-4 mb-8">
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/testimonios/WhatsApp%20Image%202023-04-08%20at%2011.54.18.jpeg" alt="Testimonial Image" class="w-full h-auto">
-          <div class="p-4">
-          </div>
-        </div>
-      </div>
-      
-      </div>
+        </div>             
     </div>
   </div>
 </section>
