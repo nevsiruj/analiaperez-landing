@@ -10,12 +10,12 @@
         items-center
       "
     >
-      <div class="logo h-12 w-28 mb-5">
+      <div href="#" class="logo h-12 w-28 mb-5">
         <img
           src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/logitoanalia.png"
           alt=""
         />
-        <a href="#" class="text-white font-bold text-xl ml-2">Dance MIX</a>
+        <a class="text-white font-bold text-xl ml-2">Dance MIX</a>
       </div>
 
       <nav class="text-center md:text-left">

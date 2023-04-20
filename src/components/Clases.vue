@@ -137,20 +137,6 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/1tivscByA8a1m577-nLdACgBMuH2FPZeZ/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">09 - Pop Dance</h3>
-          </div>
-        </div>
-
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
             src="https://drive.google.com/file/d/1WRXBW7dnOllPrsDN72Pj91qJdE6AltO5/preview"
             frameborder="0"
             allowfullscreen

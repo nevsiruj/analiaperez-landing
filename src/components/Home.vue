@@ -412,16 +412,17 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 </div>
 
 
-<div class=" md:w-1/2 px-4 mb-8 mt-3 md:pl-2 w-full">
-  <div class="rounded-lg overflow-hidden bg-transparent">
-    <div class="p-4 w-full text-center md:mt-0 mt-4">
-      <a href="https://wa.me/+5492255427173" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white py-6 px-6 rounded">
-        <i class="fab fa-whatsapp mr-2"></i>
-        Contactar por WhatsApp
-      </a>
+ <div class="mt-10">
+    
+      <a
+        href="https://wa.me/+5492255427173"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded"
+        >
+        <i class="fab fa-whatsapp mr-2"></i>Contactar por WhatsApp</a
+      >
     </div>
-  </div>
-</div>
  
     </div>
   </div>
