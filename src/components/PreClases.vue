@@ -7,8 +7,8 @@
             ¡Bienvenido al curso de baile!
           </h2>
           <p class="text-lg mb-6">
-            Aprende los mejores movimientos de baile con Analia Perez. 🕺👯‍♀️
-            Accede ahora y comienza a bailar como un verdadero experto. 💃🎉
+            Aprende los mejores movimientos de baile con Analia Perez. 
+            Accede ahora y comienza a bailar como un verdadero experto. 💃
           </p>
           <a
             href="/clases"
