@@ -10,13 +10,15 @@
         items-center
       "
     >
-      <div href="#" class="logo h-12 w-28 mb-5">
-        <img
-          src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/logitoanalia.png"
-          alt=""
-        />
-        <a class="text-white font-bold text-xl ml-2">Dance MIX</a>
-      </div>
+      <a href="#">
+        <div class="logo h-12 w-28 mb-5">
+          <img
+            src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/logitoanalia.png"
+            alt=""
+          />
+          <p class="text-white font-bold text-xl ml-2">Dance MIX</p>
+        </div>
+      </a>
 
       <nav class="text-center md:text-left">
         <a href="#beneficios" class="text-white hover:underline mx-4"
