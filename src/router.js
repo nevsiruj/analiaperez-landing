@@ -4,6 +4,7 @@ import Clases from './components/Clases.vue';
 import PagoEnProceso from './components/PagoEnProceso.vue';
 import ShowUser from './components/ShowUser.vue';
 import PreClases from './components/PreClases.vue';
+import Clases2 from './components/Clases2.vue';
 import { authenticate } from './auth';
 
 const routes = [
@@ -33,6 +34,11 @@ const routes = [
     path: '/pagoenproceso',
     name: 'pagoenproceso',
     component: PagoEnProceso,
+  },
+  {
+    path: '/clases2',
+    name: 'clases2',
+    component: Clases2,
   },
 ];
 
