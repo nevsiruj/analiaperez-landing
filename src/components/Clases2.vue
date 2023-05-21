@@ -232,15 +232,15 @@ export default {
   props: {},
   data() {
     return {
-      showModal: false,
+      showModal: true,
       username: '',
       password: '',
     };
   },
   methods: {
     checkCredentials() {
-      const hardcodedUsername = 'admin';
-      const hardcodedPassword = 'password';
+      const hardcodedUsername = 'analia';
+      const hardcodedPassword = 'analia';
 
       if (
         this.username === hardcodedUsername &&
