@@ -68,7 +68,7 @@
   </div>
 
   <!--Contenido-->
-  <section class="bg-gray-100 py-10">
+  <section class="bg-gray-100 py-10" v-if="!showModal">
     <div class="container mx-auto text-center">
       <h2 class="text-3xl font-bold mb-4 text-purple-500">
         Pack 1 Fitness Dance "Baila y entrena al mismo tiempo" 👌
