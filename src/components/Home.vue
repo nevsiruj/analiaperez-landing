@@ -348,7 +348,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
     <div class="p-4">
       <h3 class="text-lg font-bold mb-2">Opcion en Pesos</h3>
       <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
-      <p class="text-4xl font-bold text-purple-500 mb-4">$7600 ARS</p>
+      <p class="text-4xl font-bold text-purple-500 mb-4">$8500 ARS</p>
       <!-- <a @click="openModal()" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a> -->
       <!-- <a href="https://mpago.la/1maCNCV" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a> -->
 

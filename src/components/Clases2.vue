@@ -241,8 +241,8 @@ export default {
   },
   methods: {
     checkCredentials() {
-      const hardcodedUsername = 'analia';
-      const hardcodedPassword = 'analia';
+      const hardcodedUsername = 'Dance2023';
+      const hardcodedPassword = 'mixdance';
 
       if (
         this.username === hardcodedUsername &&
