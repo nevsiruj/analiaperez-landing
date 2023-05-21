@@ -81,26 +81,13 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/1020NKTh8U87zU9sg9VxlVyIcdK1oSCIg/preview"
+            src="https://drive.google.com/file/d/1W1InZforc4o99YqzJI6zjC41derZh-Yp/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
 
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">00 - Presentanción</h3>
-          </div>
-        </div>
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
-            src="https://drive.google.com/file/d/1icPnn0z8sigqHzOgPm95SNg5yfxVHrsn/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">01 - Pop Latino</h3>
+            <h3 class="text-2xl font-bold mb-2">01 - Presentanción</h3>
           </div>
         </div>
 
@@ -114,7 +101,7 @@
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">02 - Coreo Pop-Regge</h3>
+            <h3 class="text-2xl font-bold mb-2">02 - Entrada en Calor</h3>
           </div>
         </div>
 
@@ -123,13 +110,41 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/1dmh3kDjxq6ZY6MW2P0fbPEhQHmOuDyzW/preview"
+            src="https://drive.google.com/file/d/14GgSCCIBNzZ5Rsa8Ban_tAcvN3ANG0ku/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">03 - Clase Coreo 1</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1lzF7m9un-OZ6jA_Kq229L2ZegwNm27CN/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">04 - Entrenamiento</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1lzF7m9un-OZ6jA_Kq229L2ZegwNm27CN/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
           <div class="p-4">
             <h3 class="text-2xl font-bold mb-2">
-              03 - Reggaeton Intermedio-Avanzado
+              05 - Clase de Welbarre Basic
             </h3>
           </div>
         </div>
@@ -139,12 +154,12 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/1dRm2mQemITlM9LBr_LpPy0p-V2R81pue/preview"
+            src="https://drive.google.com/file/d/1POsGcf2xpBL-otF9dueQ7GdjF7UOJCG-/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">04 - Cumbia</h3>
+            <h3 class="text-2xl font-bold mb-2">06 - Clase 2 Correo</h3>
           </div>
         </div>
 
@@ -153,12 +168,12 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/1txBT6zW6_U1TQjK7nOElAGyivwjOIl6K/preview"
+            src="https://drive.google.com/file/d/15S_SJvEQOyFc5f4w7HjQ-OGogFkCQmki/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">05 - Bachata</h3>
+            <h3 class="text-2xl font-bold mb-2">07 - Entrenamiento 2</h3>
           </div>
         </div>
 
@@ -167,12 +182,12 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/11_NFcRSWQOqkHxCR9K9HAud8bAkcLJ8X/preview"
+            src="https://drive.google.com/file/d/1-baDjCnZtrCdwTowYde0u5PCe27VPXl3/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">06 - Reggaeton Avanzado</h3>
+            <h3 class="text-2xl font-bold mb-2">08 - Freedance Avanzado</h3>
           </div>
         </div>
 
@@ -181,96 +196,12 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/1tivscByA8a1m577-nLdACgBMuH2FPZeZ/preview"
+            src="https://drive.google.com/file/d/1Pr5BWT-MPewdIXob7fAjtD-Uuyk2yW86/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">07 - Electro Pop</h3>
-          </div>
-        </div>
-
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
-            src="https://drive.google.com/file/d/1ehY-SsHa0235w5OpolPBp_LwgHc8dIhQ/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">08 - Salsa</h3>
-          </div>
-        </div>
-
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
-            src="https://drive.google.com/file/d/1WRXBW7dnOllPrsDN72Pj91qJdE6AltO5/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">09 - Pop Dances</h3>
-          </div>
-        </div>
-
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
-            src="https://drive.google.com/file/d/13s8j9ZgLXslp0IXllLzTWP5Mpa69jqjH/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">Coreo Grupal - Reggaeton</h3>
-          </div>
-        </div>
-
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
-            src="https://drive.google.com/file/d/1IjsW9O9hv1IY0onpdeKkjqYF2gGDMYAp/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">Coreo Grupal - Chocogesell</h3>
-          </div>
-        </div>
-
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
-            src="https://drive.google.com/file/d/1nddNljzVIQu8WO5ZFh4kRK8m0WAK3YY5/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">Coreo Grupal - Karol G</h3>
-          </div>
-        </div>
-
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
-            src="https://drive.google.com/file/d/1QvpZ7WRNDHZl4qxjQ89Q1IOyWbiU7Cqa/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">Coreo Grupal - Bachata</h3>
+            <h3 class="text-2xl font-bold mb-2">09 - Estiramiento Final</h3>
           </div>
         </div>
       </div>
@@ -301,7 +232,7 @@ export default {
   props: {},
   data() {
     return {
-      showModal: true,
+      showModal: false,
       username: '',
       password: '',
     };
