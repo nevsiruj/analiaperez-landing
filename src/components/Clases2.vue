@@ -96,7 +96,7 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/1NkRKOQK5OCbvEyZYg694VLVw5ubB_Kxy/preview"
+            src="https://drive.google.com/file/d/1lzF7m9un-OZ6jA_Kq229L2ZegwNm27CN/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
@@ -115,7 +115,9 @@
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">03 - Clase Coreo 1</h3>
+            <h3 class="text-2xl font-bold mb-2">
+              03 - Clase Coreo (Principiantes)
+            </h3>
           </div>
         </div>
 
@@ -124,12 +126,12 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/1lzF7m9un-OZ6jA_Kq229L2ZegwNm27CN/preview"
+            src="https://drive.google.com/file/d/15S_SJvEQOyFc5f4w7HjQ-OGogFkCQmki/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">04 - Entrenamiento</h3>
+            <h3 class="text-2xl font-bold mb-2">04 - Entrenamiento General</h3>
           </div>
         </div>
 
@@ -138,7 +140,7 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/1lzF7m9un-OZ6jA_Kq229L2ZegwNm27CN/preview"
+            src="https://drive.google.com/file/d/1-baDjCnZtrCdwTowYde0u5PCe27VPXl3/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
@@ -154,12 +156,40 @@
           <iframe
             width="100%"
             height="450"
+            src="https://drive.google.com/file/d/1Pr5BWT-MPewdIXob7fAjtD-Uuyk2yW86/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">06 - Clase Coreo</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
+            src="https://drive.google.com/file/d/1I2FZfnd0uERImoonQSss6QwYUO8yzFAB/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <div class="p-4">
+            <h3 class="text-2xl font-bold mb-2">07 - Pilates/Hipopresivos</h3>
+          </div>
+        </div>
+
+        <!-- Agregar más iframes aquí -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <iframe
+            width="100%"
+            height="450"
             src="https://drive.google.com/file/d/1POsGcf2xpBL-otF9dueQ7GdjF7UOJCG-/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
           <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">06 - Clase 2 Correo</h3>
+            <h3 class="text-2xl font-bold mb-2">08 - Clase Coreo Freedance</h3>
           </div>
         </div>
 
@@ -168,35 +198,7 @@
           <iframe
             width="100%"
             height="450"
-            src="https://drive.google.com/file/d/15S_SJvEQOyFc5f4w7HjQ-OGogFkCQmki/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">07 - Entrenamiento 2</h3>
-          </div>
-        </div>
-
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
-            src="https://drive.google.com/file/d/1-baDjCnZtrCdwTowYde0u5PCe27VPXl3/preview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <div class="p-4">
-            <h3 class="text-2xl font-bold mb-2">08 - Freedance Avanzado</h3>
-          </div>
-        </div>
-
-        <!-- Agregar más iframes aquí -->
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <iframe
-            width="100%"
-            height="450"
-            src="https://drive.google.com/file/d/1Pr5BWT-MPewdIXob7fAjtD-Uuyk2yW86/preview"
+            src="https://drive.google.com/file/d/1bKFGj_dbGiarZ1vPJ_XWrqmm49bf-d9r/preview"
             frameborder="0"
             allowfullscreen
           ></iframe>
