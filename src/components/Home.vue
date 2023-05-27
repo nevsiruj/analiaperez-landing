@@ -6,7 +6,7 @@
   <div class="card flex flex-row flex-wrap -mx-4 items-center justify-center">
     <div class="w-full md:w-1/2 px-4 mb-8 text-center">
       <h2 class="text-4xl font-bold text-sky-500">
-        Aprende a bailar conmigoss
+        Aprende a bailar conmigo
       </h2>
       <h3 class="text-3xl font-bold text-purple-500">
           Las mejores coreograficas paso a paso.
