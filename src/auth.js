@@ -13,6 +13,6 @@ export function authenticate(username, password) {
         alert('Usuario Incorrecto');
         reject();
       }
-    }, 500);
+    }, 100);
   });
 }
