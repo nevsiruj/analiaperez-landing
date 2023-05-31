@@ -47,21 +47,21 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach((to, from, next) => {
-  if (to.meta.requiresAuth) {
-    const username = prompt('Ingrese su usuario:');
-    const password = prompt('Ingrese su contraseña:');
+// router.beforeEach((to, from, next) => {
+//   if (to.meta.requiresAuth) {
+//     const username = prompt('Ingrese su usuario:');
+//     const password = prompt('Ingrese su contraseña:');
 
-    authenticate(username, password)
-      .then(() => {
-        next();
-      })
-      .catch(() => {
-        next('/');
-      });
-  } else {
-    next();
-  }
-});
+//     authenticate(username, password)
+//       .then(() => {
+//         next();
+//       })
+//       .catch(() => {
+//         next('/');
+//       });
+//   } else {
+//     next();
+//   }
+// });
 
 export default router;
