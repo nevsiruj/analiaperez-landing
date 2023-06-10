@@ -241,7 +241,7 @@ export default {
   },
   methods: {
     checkCredentials() {
-      const hardcodedUsername = 'studio2023';
+      const hardcodedUsername = 'Dance2023';
       const hardcodedPassword = 'mixdance';
 
       if (
