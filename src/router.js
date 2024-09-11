@@ -6,6 +6,7 @@ import ShowUser from './components/ShowUser.vue';
 import PreClases from './components/PreClases.vue';
 import Clases2 from './components/Clases2.vue';
 import gestionClases from './components/clases/gestionClases.vue';
+import ListaClases from './components/clases/listaClases.vue';
 import { authenticate } from './auth';
 
 const routes = [
@@ -45,6 +46,11 @@ const routes = [
     path: '/gestionClases',
     name: 'GestionClases',
     component: gestionClases,
+  },
+  {
+    path: '/lista-clases',
+    name: 'ListaClases',
+    component: ListaClases,
   },
 ];
 
