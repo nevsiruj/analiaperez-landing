@@ -7,6 +7,7 @@ import PreClases from './components/PreClases.vue';
 import Clases2 from './components/Clases2.vue';
 import gestionClases from './components/clases/gestionClases.vue';
 import ListaClases from './components/clases/listaClases.vue';
+import GestionUsuario from './components/usuario/GestionUsuario.vue';
 import { authenticate } from './auth';
 
 const routes = [
@@ -51,6 +52,11 @@ const routes = [
     path: '/lista-clases',
     name: 'ListaClases',
     component: ListaClases,
+  },
+  {
+    path: '/gestionUsuario',
+    name: 'GestionUsuario',
+    component: GestionUsuario,
   },
 ];
 
