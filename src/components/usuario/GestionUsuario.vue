@@ -2,12 +2,12 @@
   <div class="p-6 max-w-lg mx-auto">
     <div class="mb-6 flex justify-between items-center">
       <h1 class="text-2xl font-bold mb-4">Usuarios</h1>
-      <router-link
+      <!-- <router-link
         to="/lista-usuarios"
         class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
       >
         Ver Página de Usuarios
-      </router-link>
+      </router-link> -->
     </div>
 
     <form @submit.prevent="addNewUser" class="mb-6">
