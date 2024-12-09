@@ -242,7 +242,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
     </div>
     <div class="flex items-center mt-2">
       <i class="fas fa-chalkboard-teacher fa-lg text-gray-500 mr-2"></i>
-      <span class="text-gray-500 text-xl">Más de 15 años de experiencia</span>
+      <span class="text-gray-500 text-xl">Más de 20 años de experiencia</span>
     </div>
     <div class="flex items-center mt-2">
       <i class="fas fa-trophy fa-lg text-gray-500 mr-2"></i>
