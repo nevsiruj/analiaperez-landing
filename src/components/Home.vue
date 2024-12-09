@@ -14,7 +14,7 @@
 
         <p class="text-2xl font-bold text-black-600 my-4">
           ¿Quieres aprender a bailar de forma divertida y fácil? Soy coreografa y profesora de baile experimentada y
-          estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesion.
+          estoy aqui para ayudarte y enseñarte para que des tus propias clases y vivir de esta profesión.
         </p>
         <p class="text-2xl font-bold text-black-600 my-4">
         Dale! En este curso aprenderás a bailar cada estilo coreográfico, paso a paso y para todos los niveles, desde principiantes hasta avanzados. Además, te enseñaré coreografías grupales e individuales, formaciones y canones. ¡No te pierdas esta oportunidad de aprender a bailar!
