@@ -90,9 +90,12 @@
 
 <div class="video-card">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/Cl_w9Djgq2w" frameborder="0" allowfullscreen></iframe>
+  <video controls>
+    <source src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/reel ana.mp4"  type="video/mp4" />
+  </video>
   </div>
 </div>
+
 
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/N4NzXAMflpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
@@ -116,8 +119,14 @@
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>A todos los que quieran aprender a bailar o enseñar a bailar en el ámbito privado, ya sea en gimnasios, estudios, clases particulares, etcétera.</li>
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>No necesitas conocimiento previo. Nuestras clases están diseñadas para todos los niveles.</li>
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Podrás ver las grabaciones las veces que quieras a tu propio ritmo. No te preocupes si necesitas repasar algún paso o coreografía.</li>
-        <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Acceso ilimitado al curso durante 1 año. Podrás acceder a todas las clases grabadas durante todo un año.</li>
-        <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Certificado avalado por nuestro STUDIO de DANCE. Al finalizar el curso, recibirás un certificado que avala tu aprendizaje.</li>
+        <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>
+          Certificados profesionales nacionales e internacionales avalados por el Instituto IBEA ( instituto de actividades físicas estética belleza y arte )y el estudio Mix Dance. con códigos QR.</li>
+
+          <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Elige una coreografía como evaluación y envíala al WhatsApp donde te comunicaste.</li>
+
+            <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Únete gratis a nuestra comunidad.</li>
+
+              <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Opcional: accede a nuestra plataforma con una membresía para seguir entrenando, formándote y manteniéndose actualizada siempre.</li>
       </ul>
       <a href="#precios" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded text-4xl">¡Adquiri mi curso ahora!</a>
       
@@ -266,50 +275,28 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
     <div class="flex flex-wrap -mx-4">
       <div class="w-full md:w-1/2 px-4 mb-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://files.fm/thumb.php?i=vhdxth6tj" alt="Testimonial Image" class="w-full h-auto">
-          <div class="p-4">
-            <h3 class="text-lg font-bold text-purple-500 mb-4">Tamara</h3>
-          </div>
+        <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/ImagenDeTicket-4.jpg"/>
         </div>
       </div>
       <div class="w-full md:w-1/2 px-4 mb-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://files.fm/thumb_show.php?i=yjynmyhrv" alt="Testimonial Image" class="w-full h-auto">
-          <div class="p-4">
-            <h3 class="text-lg font-bold text-purple-500 mb-4">Yesi</h3>
-          </div>
+        <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/ImagenDeTicket4.png"/>
         </div>
       </div>
       <div class="w-full md:w-1/2 px-4 mb-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://files.fm/thumb_show.php?i=qsaksnypr" alt="Testimonial Image" class="w-full h-auto">
-          <div class="p-4">
-            <h3 class="text-lg font-bold text-purple-500 mb-4"></h3>
-          </div>
+        <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/ImagenTicket-04.jpg"/>
         </div>
       </div>
       <div class="w-full md:w-1/2 px-4 mb-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://files.fm/thumb_show.php?i=sn6r9jxw3" alt="Testimonial Image" class="w-full h-auto">
-          <div class="p-4">
-            <h3 class="text-lg font-bold text-purple-500 mb-4">Rodri</h3>
-          </div>
+        <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/imagenTicket-4.jpg"/>
         </div>
       </div>      
          <div class="w-full md:w-1/2 px-4 mb-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://files.fm/thumb_show.php?i=bv4bvusgg" alt="Testimonial Image" class="w-full h-auto">
-          <div class="p-4">
-          </div>
-        </div>
-      </div>
-        <div class="w-full md:w-1/2 px-4 mb-8">
-        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <img src="https://files.fm/thumb_show.php?i=t36py8txd" alt="Testimonial Image" class="w-full h-auto">
-          <div class="p-4">
-            <h3 class="text-3xl font-bold text-purple-500 mb-2">Mari</h3>
-          </div>
-        </div>             
+        <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/imagenTicket4.jpg"/>
+        </div>        
     </div>
   </div>
 </section>
@@ -339,62 +326,13 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 
 <section id="precios" class="bg-gray-100 py-12">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-8 text-purple-500">Precios del curso</h2>
+    <h2 class="text-3xl font-bold mb-8 text-purple-500">ahora contás con nuestra nueva plataforma de clases</h2>
 
     <div class="flex flex-wrap justify-center">
 
     <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0 md:pr-2">
   <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-    <div class="p-4">
-      <h3 class="text-lg font-bold mb-2">Opcion en Pesos</h3>
-      <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
-      <p class="text-4xl font-bold text-purple-500 mb-4">$8500 ARS</p>
-      <!-- <a @click="openModal()" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a> -->
-      <!-- <a href="https://mpago.la/1maCNCV" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a> -->
-
-      <a href="https://mpago.la/22hi4Zo" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
-
-    <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-    data-preference-id="266655375-911e7705-596d-49e0-8fb6-6d33f7cfc25d" data-source="button">
-    </script>
-
-         <!-- <div id="paymentBrick_container"></div> -->
-      
-
-             <!-- Sección para el modal -->
-        <div v-if="showModal" class="fixed z-10 inset-0 overflow-y-auto">
-          <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-            <div class="fixed inset-0 transition-opacity">
-              <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
-            </div>
-            <span class="hidden sm:inline-block sm:align-middle sm:h-screen"></span>&#8203;
-            <div
-              class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
-              role="dialog" aria-modal="true" aria-labelledby="modal-headline">
-
-
-              <!-- Contenido del modal -->
-              <div class="p-6">
-                <h2 class="text-xl font-bold mb-4">Realizar pago</h2>
-                <div class="mb-4">
-                  <!-- Agrega aquí el componente de mercado pago -->
-         
-
-                </div>
-                <div class="flex justify-end">
-                
-                  <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
-                    @click="closeModal">Cerrar</button>
-                </div>
-              </div>
-        
-
-            </div>
-          </div>
-        </div>
-              <!-- Fin Sección modal -->
-
-    </div>
+    <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/Ticket05.jpg"/>
   </div>
 </div>
 
@@ -402,12 +340,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 
 <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0 md:pl-2 md:pr-2">
   <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-    <div class="p-4">
-      <h3 class="text-lg font-bold mb-2">Opcion en Dolares</h3>
-      <p class="text-gray-700 mb-4">Acceso ilimitado al curso durante 1 año</p>
-      <p class="text-4xl font-bold text-purple-500 mb-4">$49</p>
-      <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">¡Adquirir ahora!</a>
-    </div>
+  <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/ImagenDeTicket5.png"/>
   </div>
 </div>
 
@@ -420,7 +353,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
         rel="noopener noreferrer"
         class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded"
         >
-        <i class="fab fa-whatsapp mr-2"></i>Contactar por WhatsApp</a
+        <i class="fab fa-whatsapp mr-2"></i>Comunicate ya</a
       >
     </div>
  
