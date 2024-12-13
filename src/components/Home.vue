@@ -91,7 +91,7 @@
 <div class="video-card">
   <div class="video-container">
   <video controls>
-    <source src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/reel ana.mp4"  type="video/mp4" />
+    <source src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/reel_ana.mp4"  type="video" />
   </video>
   </div>
 </div>
