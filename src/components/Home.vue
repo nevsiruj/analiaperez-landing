@@ -88,10 +88,10 @@
       Disfruta de nuestro curso en la modalidad grabado, que consta de 13 videos coreográficos explicados paso a paso. Podrás hacerlo en tus tiempos y horarios, sin preocuparte por perderte ninguna clase. Además, te daremos diferentes ideas de vestuarios para cada ritmo, para que puedas lucirte mientras bailas 👌.
     </p>
 
-<div class="video-card">
-  <div class="video-container">
-  <video controls>
-    <source src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/reel_ana.mp4"  type="video" />
+<div >
+  <div >
+  <video controls loop class="h-auto">
+    <source src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/videoAnalia.mp4"  type="video/mp4" />
   </video>
   </div>
 </div>
