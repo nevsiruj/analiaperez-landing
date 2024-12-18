@@ -120,13 +120,13 @@
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>No necesitas conocimiento previo. Nuestras clases están diseñadas para todos los niveles.</li>
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Podrás ver las grabaciones las veces que quieras a tu propio ritmo. No te preocupes si necesitas repasar algún paso o coreografía.</li>
         <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>
-          Certificados profesionales nacionales e internacionales avalados por el Instituto IBEA ( instituto de actividades físicas estética belleza y arte )y el estudio Mix Dance. con códigos QR.</li>
+          Certificados profesionales nacionales e internacionales avalados por el Instituto IBEA ( instituto de actividades físicas estética belleza y arte )Y la escuela de danza Mix dance .</li>
 
-          <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Elige una coreografía como evaluación y envíala al WhatsApp donde te comunicaste.</li>
+          <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Y como método de evaluación te pedimos que nos envíes una coreografía la que vos elijas del curso o alguna propia tuya y la envíes al WhatsApp donde te comunicaste.</li>
 
             <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Únete gratis a nuestra comunidad.</li>
 
-              <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Opcional: accede a nuestra plataforma con una membresía para seguir entrenando, formándote y manteniéndose actualizada siempre.</li>
+              <li class="mb-2"><i class="fas fa-check text-green-500 mr-2"></i>Opcional: accede a nuestra plataforma con una membresía para seguir entrenando, formándote y manteniéndote en forma.</li>
       </ul>
       <a href="#precios" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded text-4xl">¡Adquiri mi curso ahora!</a>
       
@@ -340,7 +340,7 @@ No esperes más para formarte y capacitarte con nosotros <strong class="text-pur
 
 <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0 md:pl-2 md:pr-2">
   <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-  <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/ImagenDeTicket5.png"/>
+  <img src="https://stackblitz.com/files/vue-jvtso5/github/nevsiruj/analiaperez-landing/main/public/assets/images/ImagenDeTicket5.jpg"/>
   </div>
 </div>
 
